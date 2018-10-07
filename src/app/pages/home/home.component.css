@@ -1,0 +1,13 @@
+.requist-qoute-title {
+  padding-top: 0px;
+}
+
+.tp-wrap-btn {
+  padding-top: 0px;
+  text-align: center;
+}
+
+.parallax-image {
+  background-image: url('../../../assets/images/bolivia-uyuni.jpg');
+  background-size: cover;
+}

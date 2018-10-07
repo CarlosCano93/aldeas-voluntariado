@@ -1,0 +1,136 @@
+<app-page-title [title]="'Precios'" [subtitle]="'Elige entre los planes de una a cuatro semanas de duración'"></app-page-title>
+<section class="rafaa-section singel-service-page">
+  <div class="container">
+    <div class="row row-single-page">
+      <div class="col-12">
+        <div class="wrap_singel_title">
+          <h2>Qué incluye y qué NO incluye</h2>
+          <p>
+            No podemos ofrecerte todo incluído porque muchas cosas dependen de la procedencia del voluntario.
+            Aunque no incluyamos cosas como billetes de avión y seguro de viaje, si que te ayudaremos en todo el
+            proceso.
+            Te guiaremos con nuestra experiencia y te proporcionaremos diferentes precios y coberturas con diferentes
+            compañías. <br>
+            En un futuro intentaremos hacer acuerdos con aseguradoras y/o aerolíneas para intentar ofreceros
+            descuentos.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="wrap_col_content">
+          <h4>Lorem ipsum</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="wrap_col_content">
+          <h4>Lorem ipsum</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+        </div>
+      </div>
+      <div class="col-md-4 col-12">
+        <div class="wrap_col_content">
+          <h4>Lorem ipsum</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-single-page align-items-center">
+      <div class="col-lg-7 col-md-12 col-12">
+        <div class="singel-page-img left-simage">
+          <img src="../../../assets/images/titicaca.jpg" alt="image title" />
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12 col-12">
+        <h3>¿Qué está incluído?</h3>
+        <p>
+          Incluimos:
+        </p>
+        <div class="about_list_row">
+          <ul class="about_list">
+            <li><span class="about_icon">
+                <i class="fas fa-check"></i>
+              </span>
+              <p>Alojamiento en el mismo centro en el que ayudarás</p>
+            </li>
+            <li><span class="about_icon">
+                <i class="fas fa-check"></i>
+              </span>
+              <p>Tres comidas al día</p>
+            </li>
+            <li><span class="about_icon">
+                <i class="fas fa-check"></i>
+              </span>
+              <p>Gastos de transporte el día de llegada y vuelta desde el aeropuerto</p>
+            </li>
+          </ul>
+        </div>
+        <p>
+          <br>No incluído pero te ayudamos a buscar:
+        </p>
+        <div class="about_list_row">
+          <ul class="about_list">
+            <li><span class="about_icon">
+                <i class="fas fa-times"></i>
+              </span>
+              <p>Vacunas necesarias y seguro de viaje</p>
+            </li>
+            <li><span class="about_icon">
+                <i class="fas fa-times"></i>
+              </span>
+              <p>Billetes de avión de ida y vuelta</p>
+            </li>
+            <li><span class="about_icon">
+                <i class="fas fa-times"></i>
+              </span>
+              <p>Excursiones y/o visitas turisticas (te proporcionaremos algunos descuentos)</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="rafaa-section pricing-plans">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="wcus_section_title">
+          <span class="rp-tip">Precios</span>
+          <h2>Elige la duración <br> que mejor se adapte a ti</h2>
+          <p>Todos nuestros planes incluyen las mismas condiciones. <br>
+            La única diferencian en la duración.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row row-plans">
+
+      <div class="col-lg-3 col-md-6 col-sm-6 col-12 col-plan" *ngFor="let d of data">
+        <div class="plan-content" [class.feature-plan]="d.isFeaturePlan">
+          <div class="plan-flag" *ngIf="d.isFeaturePlan">
+            <div>Feature Plan</div>
+          </div>
+          <h5> {{ d.title }} </h5>
+          <div class="plan-price">
+            <span class="price">
+              {{ d.price }}<em class="currency">€</em></span>
+          </div>
+          <ul class="plan-features">
+            <li *ngFor="let f of d.features"> {{ f.feature }} </li>
+          </ul>
+          <a href="#" class="choose_plan" tabindex="-1"> Choose </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

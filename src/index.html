@@ -41,7 +41,31 @@
   <script src="./assets/js/progressbar.min.js"></script>
   <script src="./assets/js/masonary.min.js"></script>
   <script src="./assets/js/noframework.waypoints.min.js"></script>
+  <script src="./assets/js/light-box.js"></script>
   <script src="./assets/js/index.js"></script>
+
+  <script>
+    System.config({
+      paths: {
+        '/*': '/app/*',
+        'ngx-parallax/*': '/node_modules/ngx-parallax/*' // <--- add this
+      },
+      packages: {
+        app: {
+          format: 'register',
+          defaultExtension: 'js'
+        },
+        '/node_modules/ngx-parallax': { // <--- and this
+          format: 'register',
+          defaultExtension: js
+        }
+      }
+    });
+
+    System.import('/app/boot')
+      .then(null, console.error.bind(console));
+
+  </script>
 </body>
 
 </html>

@@ -8,6 +8,10 @@ import { NavbarComponent } from "./navbar/navbar.component";
 import { FooterComponent } from "./footer/footer.component";
 import { ProjectsComponent } from "./pages/projects/projects.component";
 import { PageTitleComponent } from "./page-title/page-title.component";
+import { PricingComponent } from "./pages/pricing/pricing.component";
+
+import { ParallaxModule, ParallaxConfig } from "ngx-parallax";
+import { ContactComponent } from "./pages/contact/contact.component";
 
 @NgModule({
   declarations: [
@@ -16,9 +20,11 @@ import { PageTitleComponent } from "./page-title/page-title.component";
     ProjectsComponent,
     NavbarComponent,
     FooterComponent,
-    PageTitleComponent
+    PageTitleComponent,
+    PricingComponent,
+    ContactComponent
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, ParallaxModule],
   providers: [],
   bootstrap: [AppComponent]
 })
