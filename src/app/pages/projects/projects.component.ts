@@ -16,9 +16,9 @@ export class ProjectsComponent {
       description4: "1 colegio.",
       localization: "Santa Cruz de la Sierra",
       other: "More info",
-      image1: "../../../../../assets/images/uyuni.jpg",
-      image2: "../../../../../assets/images/market.jpg",
-      image3: "../../../../../assets/images/titicaca.jpg"
+      image1: "../../../assets/images/uyuni.jpg",
+      image2: "../../../assets/images/market.jpg",
+      image3: "../../../assets/images/titicaca.jpg"
     },
     {
       title: "Aldea de San Jose de Chiquitos",
@@ -29,9 +29,9 @@ export class ProjectsComponent {
       description3: "residencia de varones para 30 jóvenes",
       localization: "Santa Cruz de la Sierra",
       other: "More info",
-      image1: "../../../../../assets/images/uyuni.jpg",
-      image2: "../../../../../assets/images/market.jpg",
-      image3: "../../../../../assets/images/titicaca.jpg"
+      image1: "../../../assets/images/uyuni.jpg",
+      image2: "../../../assets/images/market.jpg",
+      image3: "../../../assets/images/titicaca.jpg"
     },
     {
       title: "Centro de Formación y Capacitación",
@@ -39,9 +39,9 @@ export class ProjectsComponent {
         "Centro de Formación y Capacitación proyectado con la finalidad de ofrecer formación y capacitación técnica como así también para retiros espirituales en primer lugar para los niños y jóvenes, para el personal (mamás de casa, tías, y otros) como ayuda adicional para lograr mejores resultados a favor de los niños y jóvenes.",
       localization: "Santa Cruz de la Sierra",
       other: "More info",
-      image1: "../../../../../assets/images/uyuni.jpg",
-      image2: "../../../../../assets/images/market.jpg",
-      image3: "../../../../../assets/images/titicaca.jpg"
+      image1: "../../../assets/images/uyuni.jpg",
+      image2: "../../../assets/images/market.jpg",
+      image3: "../../../assets/images/titicaca.jpg"
     },
     {
       title: "Centro de Madres Solteras “Madre María”",
@@ -49,9 +49,9 @@ export class ProjectsComponent {
         "Proyecto contra el abandono de niños con capacidad para 50 madres solteras. Esta obra tiene la finalidad de ayudar a madres solteras en momentos de problemas y necesidades, ayudarlas como madres y darles una tecnificación personal para que puedan educarse en forma autónoma en la vida futura y críen a sus hijos con amor y evitar de esta manera de que hayan más niños huérfanos y abandonados.",
       localization: "Santa Cruz de la Sierra",
       other: "More info",
-      image1: "../../../../../assets/images/uyuni.jpg",
-      image2: "../../../../../assets/images/market.jpg",
-      image3: "../../../../../assets/images/titicaca.jpg"
+      image1: "../../../assets/images/uyuni.jpg",
+      image2: "../../../assets/images/market.jpg",
+      image3: "../../../assets/images/titicaca.jpg"
     }
   ];
 }
