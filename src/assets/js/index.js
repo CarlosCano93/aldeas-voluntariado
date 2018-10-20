@@ -847,28 +847,6 @@
         });
       }
 
-      /* video popup  */
-
-      var light_box_video = jQuery('body').find('.rq-play-video');
-
-
-      if (light_box_video.length) {
-
-        $('.rq-play-video').magnificPopup({
-          disableOn: 700,
-          type: 'iframe',
-          mainClass: 'mfp-fade',
-          removalDelay: 160,
-          preloader: false,
-          fixedContentPos: false
-        });
-      }
-
-
-
-
-
-
       // counter
 
       window.odometerOptions = {

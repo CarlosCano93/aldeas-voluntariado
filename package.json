@@ -24,6 +24,7 @@
     "core-js": "^2.5.4",
     "ngx-parallax": "^4.0.0",
     "rxjs": "~6.3.3",
+    "videogular2": "^6.3.0",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
