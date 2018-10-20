@@ -17,30 +17,102 @@
             </li>
           </ul>
           <div class="rq-wrap-form">
+
             <form action="#" id="tp-form" class="tp-form-1">
+
               <div class="row">
-                <div class="col-lg-6 col-md-6 col-12 col-form-right">
+                <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="text" name="tp-username" id="tp-username" class="tp-feild tp-user-name" required=""
-                      placeholder="Nombre y apellidos *">
-                  </p>
-                  <p class="tp-form-el">
-                    <input type="email" name="tp-email" class="tp-feild tp-email" id="tp-email" required="" placeholder="Email *">
+                    <input type="text" name="tp-name" id="tp-name" class="tp-feild tp-user-name" required placeholder="Nombre *">
                   </p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12 col-form-left">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <p class="tp-form-el">
+                    <input type="text" name="tp-surname" id="tp-surname" class="tp-feild tp-user-name" required
+                      placeholder="Apellidos *">
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
                     <input type="text" id="tp-phone" name="tp-phone" class="tp-feild tp-phone" placeholder="Teléfono *">
                   </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="text" id="tp-company" name="tp-company" class="tp-feild tp-phone" placeholder="Estudios ">
+                    <input type="email" name="tp-email" class="tp-feild tp-email" id="tp-email" required placeholder="Email *">
                   </p>
                 </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <p class="tp-form-el">
+                    <input type="text" id="tp-studies" name="tp-studies" class="tp-feild tp-studies" placeholder="Estudios ">
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <p class="tp-form-el">
+                    <label for="tp-birthday">Fecha de nacimiento</label>
+                    <input type="date" value="2000-01-01" id="tp-birthday" name="tp-birthday" class="tp-feild tp-birthday">
+                  </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <p class="tp-form-el">
+                    <label for="tp-spanish">Nivel de Español *</label>
+                    <select id="tp-spanish" class="tp-feild" required>
+                      <option disabled selected></option>
+                      <option>Básico</option>
+                      <option>Medio</option>
+                      <option>Alto</option>
+                      <option>Nativo</option>
+                    </select>
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <p class="tp-form-el">
+                    <label for="tp-know-us">Como nos conocistes</label>
+                    <select id="tp-know-us" class="tp-feild">
+                      <option disabled selected></option>
+                      <option>Amigos</option>
+                      <option>Buscaba voluntariados en internet</option>
+                      <option>Redes sociales</option>
+                      <option>Publicidad</option>
+                    </select>
+                  </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <p class="tp-form-el">
+                    <label for="Duración">Duración de la estancia</label>
+                    <select id="tp-spanish" class="tp-feild">
+                      <option disabled selected></option>
+                      <option>Plan de 1 semana</option>
+                      <option>Plan de 2 semana</option>
+                      <option>Plan de 3 semana</option>
+                      <option>Plan de 4 semana</option>
+                    </select>
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
                 <div class="col-12">
                   <p class="tp-form-el">
                     <textarea name="tp-message" class="tp-message" placeholder="Quiero ser voluntario porque..."></textarea>
                   </p>
+                  <p class="tp-form-el">
+                    <textarea name="tp-volunteer-experience" class="tp-volunteer-experience" placeholder="Ya he participado en voluntariados como..."></textarea>
+                  </p>
                 </div>
+
                 <div class="col-12 ">
                   <div class="tp-wrap-btn">
                     <button type="submit" class=" sendmessage_btn" id="tp-submit">Envíar petición</button>
@@ -48,6 +120,7 @@
                 </div>
               </div>
             </form>
+
           </div>
         </div>
       </div>

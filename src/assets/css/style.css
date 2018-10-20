@@ -1348,7 +1348,9 @@ img {
 }
 
 .tp-form-el input[type="text"],
-.tp-form-el input[type="email"] {
+.tp-form-el input[type="email"],
+.tp-form-el input[type="date"],
+.tp-form-el select {
   padding: 13px 16px;
   width: 64%;
   border-radius: 5px;
@@ -1366,7 +1368,8 @@ img {
 }
 
 .tp-form-el input[type="text"]:focus,
-.tp-form-el input[type="email"]:focus {
+.tp-form-el input[type="email"]:focus,
+.tp-form-el input[type="date"]:focus {
   box-shadow: 0px 2px 10px 0 hsla(0, 0%, 0%, 0.06);
 }
 
@@ -5109,6 +5112,8 @@ ul.list-comments li:last-child .row.row-comment {
 
 .wrap_contact_page .tp-form-el input[type="text"],
 .wrap_contact_page .tp-form-el input[type="email"],
+.wrap_contact_page .tp-form-el input[type="date"],
+.wrap_contact_page .tp-form-el select,
 .tp-form-el textarea {
   width: 100%;
 }
