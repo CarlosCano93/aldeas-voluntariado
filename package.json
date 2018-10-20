@@ -7,8 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href https://CarlosCano93.github.io/aldeas-voluntariado/ && npx ngh --branch gh-pages --dir=dist/aldeas-voluntariado --no-silent"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +20,9 @@
     "@angular/platform-browser": "~7.0.0-rc.0",
     "@angular/platform-browser-dynamic": "~7.0.0-rc.0",
     "@angular/router": "~7.0.0-rc.0",
+    "chart.js": "^2.7.3",
     "core-js": "^2.5.4",
+    "ng2-charts": "^1.6.0",
     "ngx-parallax": "^4.0.0",
     "rxjs": "~6.3.3",
     "videogular2": "^6.3.0",

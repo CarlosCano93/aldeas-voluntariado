@@ -214,101 +214,6 @@
 
 
     },
-    tp_chartjs: function () {
-
-      var line_chart = $('body').find('.wp_wrap_chart');
-      if (line_chart.length) {
-        var chart = new Chart(document.getElementById('statistics-chart-17').getContext("2d"), {
-          type: 'line',
-          data: {
-            labels: ['2016-10', '2016-11', '2016-12', '2017-01', '2017-02', '2017-03', '2017-04', '2017-05'],
-            datasets: [{
-              label: 'Customers',
-              data: [93, 25, 95, 59, 46, 68, 4, 41],
-              borderWidth: 1,
-              backgroundColor: '#ccc',
-              borderColor: '#ccc',
-              fill: false
-            }, {
-              label: 'Results',
-              data: [83, 1, 43, 28, 56, 82, 80, 66],
-              borderWidth: 1,
-              borderDash: [5, 5],
-              backgroundColor: '#f6364d',
-              borderColor: '#fff'
-            }],
-          },
-          options: {
-            scales: {
-              xAxes: [{
-                gridLines: {
-                  display: false
-                },
-                ticks: {
-                  fontColor: '#888'
-                }
-              }],
-              yAxes: [{
-                gridLines: {
-                  display: false
-                },
-                ticks: {
-                  fontColor: '#888'
-                }
-              }]
-            },
-
-            responsive: true,
-            maintainAspectRatio: false
-          }
-        });
-
-
-
-      }
-
-
-      // radar chart  --------------- resluts chart
-      var radar_chart = $('body').find('.r_radar_chart');
-      if (radar_chart.length) {
-        var graphChart = new Chart(document.getElementById('results-chart-17').getContext("2d"), {
-          type: 'line',
-          data: {
-            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-            datasets: [{
-              label: '2017',
-              data: [43, 81, 69, 16, 21, 79, 28],
-              borderWidth: 0,
-              backgroundColor: 'rgba(93, 51, 251, 0.2)',
-              borderColor: 'rgba(0,0,0,0.0)',
-
-              fill: true
-            }, {
-              label: '2018',
-              data: [24, 63, 29, 75, 28, 54, 38],
-              borderWidth: 1,
-              backgroundColor: 'rgba(246, 54, 77, 0.58)',
-              borderColor: 'rgba(0,0,0,0.0)',
-            }],
-          },
-
-          // Demo
-          options: {
-            responsive: true,
-            maintainAspectRatio: false
-
-          }
-        });
-
-
-
-
-      }
-
-
-
-
-    },
     sticky_header: function (lengthHeader) {
       var header = $('body').find('.tp-main-menu');
       if (header.hasClass("sticky-header")) {
@@ -823,7 +728,6 @@
 
       tp_obj.owl_slider();
 
-      tp_obj.tp_chartjs();
       tp_obj.search_popup();
       tp_obj.tp_accordein();
       tp_obj.phone_menu();

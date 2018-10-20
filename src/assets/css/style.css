@@ -1473,8 +1473,8 @@ img {
 }
 
 .footer_sicons li a:hover {
-
-  background: #2A77EB;
+  background: #f6364d;
+  ;
 }
 
 .footer_sicons li a:hover i {
@@ -1914,6 +1914,7 @@ img {
 
 .tp_chart {
   height: 200px;
+  display: block;
 }
 
 .row.inner-row.wrsults_row {
@@ -4125,6 +4126,7 @@ img {
 
 .rafaa-section.singel-service-page {
   padding: 110px 0;
+  background: #f7f8f9;
 }
 
 .singel-page-img.right-simage {
@@ -4503,7 +4505,7 @@ span.the_cases {
 }
 
 .wrap_project_info li p a:hover {
-  color: rgb(93, 51, 251);
+  color: #f6364d;
 }
 
 .wrap_project_info li.share_project {
@@ -4524,7 +4526,7 @@ li.share_project a {
 }
 
 li.share_project a:hover {
-  color: rgb(93, 51, 251);
+  color: #f6364d;
   cursor: pointer;
 }
 

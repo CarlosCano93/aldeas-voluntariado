@@ -13,6 +13,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ContactComponent } from './pages/contact/contact.component';
 
 import { ParallaxModule, ParallaxConfig } from 'ngx-parallax';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,7 @@ import { ParallaxModule, ParallaxConfig } from 'ngx-parallax';
     ContactComponent,
     AboutComponent
   ],
-  imports: [BrowserModule, AppRoutingModule, ParallaxModule],
+  imports: [BrowserModule, AppRoutingModule, ParallaxModule, ChartsModule],
   providers: [],
   bootstrap: [AppComponent]
 })

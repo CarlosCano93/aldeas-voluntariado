@@ -5,6 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: './pricing.component.html'
 })
 export class PricingComponent {
+  public doughnutChartLabels: string[] = [
+    'Alojamiento y comidas',
+    'Desarrollo de la aldea',
+    'Gestión y comisión'
+  ];
+  public doughnutChartData: number[] = [60, 30, 10];
+
   data = [
     {
       title: '1 semana',
@@ -47,4 +54,8 @@ export class PricingComponent {
       isFeaturePlan: false
     }
   ];
+
+  public chartHovered(e: any): void {
+    console.log(e);
+  }
 }

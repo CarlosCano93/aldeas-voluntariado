@@ -3,16 +3,14 @@
   <div class="container">
     <div class="row row-single-page">
       <div class="col-12">
-        <div class="wrap_singel_title">
+        <div class="wcus_section_title">
+          <span class="rp-tip">Incluído en el precio</span>
           <h2>Qué incluye y qué NO incluye</h2>
           <p>
-            No podemos ofrecerte todo incluído porque muchas cosas dependen de la procedencia del voluntario.
-            Aunque no incluyamos cosas como billetes de avión y seguro de viaje, si que te ayudaremos en todo el
-            proceso.
-            Te guiaremos con nuestra experiencia y te proporcionaremos diferentes precios y coberturas con diferentes
-            compañías. <br>
-            En un futuro intentaremos hacer acuerdos con aseguradoras y/o aerolíneas para intentar ofreceros
-            descuentos.
+            Aunque no podemos ofrecerte todo incluído, te guiaremos con nuestra experiencia <br> y te proporcionaremos
+            diferentes
+            precios y coberturas con diferentes
+            compañías.
           </p>
         </div>
       </div>
@@ -100,6 +98,43 @@
     </div>
   </div>
 </section>
+<section class="rafaa-section r-results">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="wcus_section_title">
+          <span class="rp-tip">División del dinero</span>
+          <h2>Qué hacemos con el dinero</h2>
+          <p>Te explicamos a dónde va el dinero que nos proporcionas</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-7 col-md-12 col-12">
+        <div class="results_content">
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat." </p>
+          <p>
+            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        </div>
+      </div>
+      <div class="col-lg-5 col-md-12 col-12">
+        <div class="col-radar-chart">
+          <div class="r_radar_chart">
+            <div class="tp_chart">
+              <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" chartType="doughnut"
+                (chartHover)="chartHovered($event)"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="rafaa-section pricing-plans">
   <div class="container">
     <div class="row">
@@ -113,7 +148,6 @@
       </div>
     </div>
     <div class="row row-plans">
-
       <div class="col-lg-3 col-md-6 col-sm-6 col-12 col-plan" *ngFor="let d of data">
         <div class="plan-content" [class.feature-plan]="d.isFeaturePlan">
           <div class="plan-flag" *ngIf="d.isFeaturePlan">
@@ -130,7 +164,6 @@
           <a href="#" class="choose_plan" tabindex="-1"> Choose </a>
         </div>
       </div>
-
     </div>
   </div>
 </section>
