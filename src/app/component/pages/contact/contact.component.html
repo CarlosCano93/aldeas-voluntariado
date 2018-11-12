@@ -1,8 +1,13 @@
-<app-page-title [title]="'Contacto'" [subtitle]="'Rellena el formulario para iniciar tu solicitud.'"></app-page-title>
+<app-page-title
+  [title]="'Contacto'"
+  [subtitle]="'Rellena el formulario para iniciar tu solicitud.'"
+></app-page-title>
 <section class="rafaa-section contactus-page">
   <div class="container">
     <div class="row">
-      <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 col-sm-12 offset-sm-0 col-12">
+      <div
+        class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 col-sm-12 offset-sm-0 col-12"
+      >
         <div class="wrap_contact_page">
           <ul class="contact_list">
             <li>
@@ -17,20 +22,32 @@
             </li>
           </ul>
           <div class="rq-wrap-form">
-
             <form (ngSubmit)="sendContact()" id="tp-form" class="tp-form-1">
-
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="text" name="tp-name" id="name" [(ngModel)]="volunteer.name" class="tp-feild tp-user-name"
-                      required placeholder="Nombre *">
+                    <input
+                      type="text"
+                      name="tp-name"
+                      id="name"
+                      [(ngModel)]="volunteer.name"
+                      class="tp-feild tp-user-name"
+                      required
+                      placeholder="Nombre *"
+                    />
                   </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="text" name="tp-surname" id="tp-surname" [(ngModel)]="volunteer.lastName" class="tp-feild tp-user-name"
-                      required placeholder="Apellidos *">
+                    <input
+                      type="text"
+                      name="tp-surname"
+                      id="tp-surname"
+                      [(ngModel)]="volunteer.lastName"
+                      class="tp-feild tp-user-name"
+                      required
+                      placeholder="Apellidos *"
+                    />
                   </p>
                 </div>
               </div>
@@ -38,14 +55,28 @@
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="text" name="tp-phone" id="tp-phone" [(ngModel)]="volunteer.telephone" class="tp-feild tp-phone"
-                      required placeholder="Teléfono *">
+                    <input
+                      type="text"
+                      name="tp-phone"
+                      id="tp-phone"
+                      [(ngModel)]="volunteer.telephone"
+                      class="tp-feild tp-phone"
+                      required
+                      placeholder="Teléfono *"
+                    />
                   </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="email" name="tp-email" id="tp-email" [(ngModel)]="volunteer.email" class="tp-feild tp-email"
-                      required placeholder="Email *">
+                    <input
+                      type="email"
+                      name="tp-email"
+                      id="tp-email"
+                      [(ngModel)]="volunteer.email"
+                      class="tp-feild tp-email"
+                      required
+                      placeholder="Email *"
+                    />
                   </p>
                 </div>
               </div>
@@ -53,14 +84,26 @@
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="text" name="tp-education" id="tp-education" [(ngModel)]="volunteer.education" class="tp-feild tp-education"
-                      placeholder="Estudios ">
+                    <input
+                      type="text"
+                      name="tp-education"
+                      id="tp-education"
+                      [(ngModel)]="volunteer.education"
+                      class="tp-feild tp-education"
+                      placeholder="Estudios "
+                    />
                   </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="text" name="tp-nacionality" id="tp-nacionality" [(ngModel)]="volunteer.nacionality"
-                      class="tp-feild tp-nacionality" placeholder="Nacionalidad ">
+                    <input
+                      type="text"
+                      name="tp-nacionality"
+                      id="tp-nacionality"
+                      [(ngModel)]="volunteer.nacionality"
+                      class="tp-feild tp-nacionality"
+                      placeholder="Nacionalidad "
+                    />
                   </p>
                 </div>
               </div>
@@ -69,15 +112,26 @@
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
                     <label for="tp-birthday">Fecha de nacimiento</label>
-                    <input type="date" name="tp-birthday" id="tp-birthday" [(ngModel)]="volunteer.birthday" class="tp-feild tp-birthday"
-                      value="2000-01-01">
+                    <input
+                      type="date"
+                      name="tp-birthday"
+                      id="tp-birthday"
+                      [(ngModel)]="volunteer.birthday"
+                      class="tp-feild tp-birthday"
+                      value="2000-01-01"
+                    />
                   </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
                     <label for="tp-spanish">Nivel de Español *</label>
-                    <select name="tp-spanish" id="tp-spanish" [(ngModel)]="volunteer.spanishLevel" class="tp-feild"
-                      required>
+                    <select
+                      name="tp-spanish"
+                      id="tp-spanish"
+                      [(ngModel)]="volunteer.spanishLevel"
+                      class="tp-feild"
+                      required
+                    >
                       <option disabled selected></option>
                       <option>Básico</option>
                       <option>Medio</option>
@@ -92,10 +146,17 @@
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
                     <label for="tp-know-us">Como nos conocistes</label>
-                    <select name="tp-know-us" id="tp-know-us" [(ngModel)]="volunteer.howKnowUs" class="tp-feild">
+                    <select
+                      name="tp-know-us"
+                      id="tp-know-us"
+                      [(ngModel)]="volunteer.howKnowUs"
+                      class="tp-feild"
+                    >
                       <option disabled selected></option>
                       <option value="FRIENDS">Amigos</option>
-                      <option value="">Buscaba voluntariados en internet</option>
+                      <option value=""
+                        >Buscaba voluntariados en internet</option
+                      >
                       <option>Redes sociales</option>
                       <option>Publicidad</option>
                     </select>
@@ -104,12 +165,17 @@
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
                     <label for="Duración">Duración de la estancia</label>
-                    <select name="tp-spanish" id="tp-spanish" [(ngModel)]="volunteer.spanishLevel" class="tp-feild">
+                    <select
+                      name="tp-spanish"
+                      id="tp-spanish"
+                      [(ngModel)]="volunteer.spanishLevel"
+                      class="tp-feild"
+                    >
                       <option disabled selected></option>
-                      <option value=0>Plan de 1 semana</option>
-                      <option value=1>Plan de 2 semana</option>
-                      <option value=2>Plan de 3 semana</option>
-                      <option value=3>Plan de 4 semana</option>
+                      <option value="0">Plan de 1 semana</option>
+                      <option value="1">Plan de 2 semana</option>
+                      <option value="2">Plan de 3 semana</option>
+                      <option value="3">Plan de 4 semana</option>
                     </select>
                   </p>
                 </div>
@@ -118,23 +184,38 @@
               <div class="row">
                 <div class="col-12">
                   <p class="tp-form-el">
-                    <textarea name="tp-message" id="tp-message" class="tp-message" [(ngModel)]="volunteer.message"
-                      placeholder="Quiero ser voluntario porque..."></textarea>
+                    <textarea
+                      name="tp-message"
+                      id="tp-message"
+                      class="tp-message"
+                      [(ngModel)]="volunteer.message"
+                      placeholder="Quiero ser voluntario porque..."
+                    ></textarea>
                   </p>
                   <p class="tp-form-el">
-                    <textarea name="tp-volunteer-experience" id="tp-volunteer-experience" [(ngModel)]="volunteer.volunteerExperience"
-                      class="tp-volunteer-experience" placeholder="Ya he participado en voluntariados como..."></textarea>
+                    <textarea
+                      name="tp-volunteer-experience"
+                      id="tp-volunteer-experience"
+                      [(ngModel)]="volunteer.volunteerExperience"
+                      class="tp-volunteer-experience"
+                      placeholder="Ya he participado en voluntariados como..."
+                    ></textarea>
                   </p>
                 </div>
 
                 <div class="col-12 ">
                   <div class="tp-wrap-btn">
-                    <button type="submit" class=" sendmessage_btn" id="tp-submit">Envíar petición</button>
+                    <button
+                      type="submit"
+                      class=" sendmessage_btn"
+                      id="tp-submit"
+                    >
+                      Envíar petición
+                    </button>
                   </div>
                 </div>
               </div>
             </form>
-
           </div>
         </div>
       </div>
