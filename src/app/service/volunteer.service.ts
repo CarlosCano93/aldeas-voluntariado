@@ -11,7 +11,7 @@ const httpOptions = {
 
 @Injectable({ providedIn: 'root' })
 export class ContactService {
-  volunteerUrl = 'http://localhost:8080/clients/add';
+  volunteerUrl = 'http://heartofsouthamerica.tk:8080/clients/get';
 
   constructor(private http: HttpClient) {}
 
