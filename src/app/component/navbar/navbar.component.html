@@ -11,7 +11,6 @@
         </div>
       </div>
 
-
       <div class="col-lg-12 col-md-12 col-12">
         <nav class="tp-menu tagpoint-menu-2">
           <ul class="tagpoint-main-menu ">
@@ -23,33 +22,35 @@
             </li>
             <li class="has-sub">
               <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
-              <a routerLink="about" routerLinkActive="active" title="About">
-                Sobre HOS
+              <a [routerLink]="['/projects','volunteer']" routerLinkActive="active" title="Volunteers">
+                Voluntariado
               </a>
             </li>
             <li class="has-sub">
               <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
-              <a routerLink="projects" routerLinkActive="active" title="Projects">
-                Proyectos
+              <a [routerLink]="['/projects','tourism']" routerLinkActive="active" title="Turism">
+                Turismo & Idiomas
               </a>
             </li>
-            <!--
             <li class="has-sub">
               <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
-              <a routerLink="sponsor" routerLinkActive="active" title="Sponsor">
-                Apadrina
-              </a>
-            </li>
-            -->
-            <li class="has-sub">
-              <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
-              <a routerLink="pricing" routerLinkActive="active" title="Who we are">
+              <a routerLink="pricing" routerLinkActive="active" title="pricing">
                 Precios
+              </a>
+            </li>
+            <li class="has-sub">
+              <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
+                Colabora
+            </li>
+            <li class="has-sub">
+              <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
+              <a routerLink="about" routerLinkActive="active" title="About">
+                Acerca de...
               </a>
             </li>
             <li>
               <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
-              <a routerLink="contact" routerLinkActive="active" title="Contact">Contactanos</a>
+              <a routerLink="contact" routerLinkActive="active" title="Contact">Contacto</a>
             </li>
             <li class="wrap_phone request_qoute">
               <a routerLink="contact" routerLinkActive="active" title="Contact" class="request_qoute">
