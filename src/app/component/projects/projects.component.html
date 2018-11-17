@@ -1,23 +1,21 @@
 <!-- breadcrumbs -->
-<app-page-title [title]="'Proyectos'" [subtitle]="'Infórmate de los diferentes centros y actividades que desempeñarás durante tu voluntariado'">
-</app-page-title>
-<section class="rafaa-section projects-singel-page " *ngFor="let d of data; let isOdd=odd" [class.background-gray]="isOdd">
+<section class="rafaa-section projects-singel-page " *ngFor="let d of data; let isOdd=even" [class.background-gray]="isOdd">
   <div class="container">
     <div class="row project_desc">
       <div class="col-lg-8 col-md-12 col-12">
         <h2>{{ d.title }}:</h2>
-        <p>{{ d.description1 }}</p>
-        <p *ngIf="d.description2">{{ d.description2 }}</p>
-        <p *ngIf="d.description3">{{ d.description3 }}</p>
-        <p *ngIf="d.description4">{{ d.description4 }}</p>
+        <p *ngFor="let desc of d.description;">{{ desc }}</p>
       </div>
       <div class="col-lg-4 col-md-12 col-12">
-        <ul class="wrap_project_info">
-          <li><strong>Localización: </strong>
-            <p>{{ d.localization }}</p>
+        <ul class="wrap_project_info" [class.background-gray]="isOdd">
+          <li><strong>País: </strong>
+            <p>{{ d.country }}</p>
           </li>
-          <li><strong>Otros: </strong>
-            <p>{{ d.other }}</p>
+          <li><strong>Ciudad: </strong>
+            <p>{{ d.city }}</p>
+          </li>
+          <li><strong>Tags: </strong>
+            <p>{{ d.tags }}</p>
           </li>
         </ul>
       </div>
