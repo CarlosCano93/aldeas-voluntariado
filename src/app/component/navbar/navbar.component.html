@@ -10,53 +10,54 @@
           </span>
         </div>
       </div>
-
       <div class="col-lg-12 col-md-12 col-12">
         <nav class="tp-menu tagpoint-menu-2">
           <ul class="tagpoint-main-menu ">
             <li class="current_page_item  has-sub ">
-              <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
               <a title="Home" href="">
-                Inicio
-              </a>
-            </li>
-            <li class="has-sub">
-              <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
-              <a routerLink="volunteering" routerLinkActive="active" title="volunteering">
-                Voluntariado
-              </a>
-            </li>
-            <li class="has-sub">
-              <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
-              <a routerLink="tourism" routerLinkActive="active" title="tourism">
-                Turismo & Idiomas
-              </a>
-            </li>
-            <li class="has-sub">
-              <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
-              <a routerLink="pricing" routerLinkActive="active" title="pricing">
-                Precios
-              </a>
-            </li>
-            <li class="has-sub">
-              <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
-              <a>
-                Colabora
-              </a>
-            </li>
-            <li class="has-sub">
-              <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
-              <a routerLink="about" routerLinkActive="active" title="About">
-                Sobre nosotros
+                {{ 'navbar.home' | translate }}
               </a>
             </li>
             <li>
-              <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
-              <a routerLink="contact" routerLinkActive="active" title="Contact">Contacto</a>
+              <a routerLink="volunteering" routerLinkActive="active" title="volunteering">
+                {{ 'navbar.volunteering' | translate }}
+              </a>
+            </li>
+            <li>
+              <a routerLink="tourism" routerLinkActive="active" title="tourism">
+                {{ 'navbar.tourism' | translate }}
+              </a>
+            </li>
+            <li>
+              <a routerLink="pricing" routerLinkActive="active" title="pricing">
+                {{ 'navbar.pricing' | translate }}
+              </a>
+            </li>
+            <li>
+              <a>
+                {{ 'navbar.collaborate' | translate }}
+              </a>
+            </li>
+            <li>
+              <a routerLink="about" routerLinkActive="active" title="About">
+                {{ 'navbar.about' | translate }}
+              </a>
+            </li>
+            <li>
+              <a routerLink="contact" routerLinkActive="active" title="Contact">{{ 'navbar.contact' | translate }}</a>
             </li>
             <li class="wrap_phone request_qoute">
               <a routerLink="contact" routerLinkActive="active" title="Contact" class="request_qoute">
-                Quiero ser voluntario<i class="fas fa-external-link-alt"></i></a>
+                {{ 'navbar.btn-volunteer' | translate }}<i class="fas fa-external-link-alt"></i></a>
+            </li>
+            <li>
+              <a title="languaje">{{ lang }}<i class="  fas fa-chevron-down"></i></a>
+              <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
+              <ul class="sub-menu">
+
+                <li (click)="changeLanguage('es')"><a> {{ 'navbar.langs.es' | translate }} </a></li>
+                <li (click)="changeLanguage('en')"><a> {{ 'navbar.langs.en' | translate }} </a></li>
+              </ul>
             </li>
           </ul>
         </nav>

@@ -179,6 +179,10 @@ img {
   max-width: 100%;
 }
 
+a {
+  cursor: pointer;
+}
+
 
 
 
@@ -235,7 +239,7 @@ img {
 
 .tagpoint-main-menu>li:not(.wrap_phone)>a>i {
   display: inline-block;
-  float: right;
+  /*float: right;*/
   margin-left: 6px;
   font-size: 10px;
   line-height: 2;
@@ -250,9 +254,9 @@ img {
 .tagpoint-main-menu li ul.sub-menu {
   display: block;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 100%;
-  width: 230px;
+  width: 150px;
   padding: 17px 0 16px 0;
   border-top: 2px solid #f6364d;
   box-sizing: border-box;
@@ -337,11 +341,11 @@ img {
 }
 
 .tagpoint-main-menu>li.wrap_phone {
-  float: right;
+  /*float: right;*/
 }
 
 .tagpoint-main-menu>li.wrap_phone>a {
-  margin-left: 24px;
+  margin: 0px 24px 0px 24px;
   font-size: 14px;
   padding: 26px 0;
   font-weight: 600;
@@ -1656,7 +1660,7 @@ img {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+  padding: 30vh 0;
   position: relative;
   overflow: hidden;
   z-index: 9;
@@ -1681,6 +1685,7 @@ img {
   text-align: center;
 }
 
+.wrap_intro_title h1,
 .wrap_intro_title h2 {
   color: #fff;
   font-size: 90px;

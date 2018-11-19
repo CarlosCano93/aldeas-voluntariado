@@ -4,11 +4,15 @@
     <div class="row">
       <div class="col-12">
         <div class="wrap_intro_title">
-          <h2 class="tp_animate_when_visible bottom-t-top" data-delay="300">
-            Bolivia <br />Voluntariados
-          </h2>
-          <p class="tp_animate_when_visible bottom-t-top" data-delay="400" data-speed="600">
-            Vive la experiencia de un voluntariado en Bolivia
+          <h1 class="tp_animate_when_visible bottom-t-top" data-delay="300">
+            {{ 'home.title' | translate }}
+          </h1>
+          <p
+            class="tp_animate_when_visible bottom-t-top"
+            data-delay="400"
+            data-speed="600"
+          >
+            {{ 'home.subtitle' | translate }}
           </p>
         </div>
       </div>
@@ -20,14 +24,13 @@
     <div class="row">
       <div class="col-12">
         <div class="wrap-about-title">
-          <span class="rp-tip">¿Qué es HOS?</span>
-          <h2 class="l-head">Heart of South America</h2>
-
-          <p>
-            Somos un grupo de amigos con mentalidad disruptiva <br />
-            que cree que el cambio que el mundo necesita debe realizarse
-            mediante <br />la economía colaborativa y circular
-          </p>
+          <span class="rp-tip">{{ 'home.hos.pre-title' | translate }}</span>
+          <h2 class="l-head">{{ 'home.hos.title' | translate }}</h2>
+          <div class="row justify-content-md-center">
+            <div class="col-md-8">
+              <p>{{ 'home.hos.desc' | translate }}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -39,28 +42,51 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-        <div class="wrap-service-2 " routerLink="tourism" routerLinkActive="active" title="tourism">
+        <div
+          class="wrap-service-2 "
+          routerLink="tourism"
+          routerLinkActive="active"
+          title="tourism"
+        >
           <div class="service-2-content">
-            <span class="ser_icon_2"><img src="images/icons/apps.png" alt="apps development" /></span>
-            <h3>Aprende idiomas viajando</h3>
+            <span class="ser_icon_2"
+              ><img src="images/icons/apps.png" alt="apps development"
+            /></span>
+            <h3>{{ 'home.hos.tourism' | translate }}</h3>
             <a><i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-        <div div class="wrap-service-2 " routerLink="volunteering" routerLinkActive="active" title="volunteering">
+        <div
+          div
+          class="wrap-service-2 "
+          routerLink="volunteering"
+          routerLinkActive="active"
+          title="volunteering"
+        >
           <div class="service-2-content ">
-            <span class="ser_icon_2"><img src="images/icons/seo.png" alt="apps development" /></span>
-            <h3>Vente de voluntariado</h3>
+            <span class="ser_icon_2"
+              ><img src="images/icons/seo.png" alt="apps development"
+            /></span>
+            <h3>{{ 'home.hos.volunteer' | translate }}</h3>
             <a><i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
       </div>
       <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-        <div div class="wrap-service-2 " routerLink="" routerLinkActive="active" title="volunteering">
+        <div
+          div
+          class="wrap-service-2 "
+          routerLink=""
+          routerLinkActive="active"
+          title="volunteering"
+        >
           <div class="service-2-content">
-            <span class="ser_icon_2"><img src="images/icons/digital.png" alt="apps development" /></span>
-            <h3>Colabora desde tu casa!</h3>
+            <span class="ser_icon_2"
+              ><img src="images/icons/digital.png" alt="apps development"
+            /></span>
+            <h3>{{ 'home.hos.collaborate' | translate }}</h3>
             <a><i class="fas fa-arrow-right"></i></a>
           </div>
         </div>
@@ -69,14 +95,16 @@
   </div>
 </section>
 
-<section class="rafaa-section about_us parallax-image" parallax [config]="{ initialValue: -50, ratio: 0.3 }">
+<section
+  class="rafaa-section about_us parallax-image"
+  parallax
+  [config]="{ initialValue: -50, ratio: 0.3 }"
+>
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="wrap-about-title">
-          <h2 class="l-head">
-            "New tourism as a way to solve a problem that matters"
-          </h2>
+          <h2 class="l-head">{{ 'home.quote' | translate }}</h2>
         </div>
       </div>
     </div>
@@ -89,12 +117,13 @@
     <div class="row">
       <div class="col-12">
         <div class="process-title">
-          <span class="rp-tip">Nuestro proceso</span>
-          <h2 class="l-head">Como hacerte voluntario</h2>
-          <p>
-            Rellena el formulario en la sección de contacto y nosotros
-            <br>nos pondremos en contacto contigo para los siguientes pasos
-          </p>
+          <span class="rp-tip">{{ 'home.process.pre-title' | translate }}</span>
+          <h2 class="l-head">{{ 'home.process.title' | translate }}</h2>
+          <div class="row justify-content-md-center">
+            <div class="col-md-8">
+              <p>{{ 'home.process.desc' | translate }}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -102,33 +131,38 @@
       <div class="col-lg-3 col-md-6 col-sm-6 col-12">
         <div class="wrap_process ">
           <span><i class="fas fa-info"></i><em>01</em></span>
-          <h3>Infórmate</h3>
+          <h3>{{ 'home.process.steps.info' | translate }}</h3>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 col-sm-6 col-12">
         <div class="wrap_process ">
           <span><i class="far fa-edit"></i> <em>02</em></span>
-          <h3>Rellena el formulario</h3>
+          <h3>{{ 'home.process.steps.form' | translate }}</h3>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 col-sm-6 col-12">
         <div class="wrap_process ">
           <span><i class="fas fa-check"></i> <em>03</em></span>
-          <h3>Aprobamos tu solicitud</h3>
+          <h3>{{ 'home.process.steps.request' | translate }}</h3>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 col-sm-6 col-12">
         <div class="wrap_process ">
           <span><i class="fas fa-hands-helping"></i> <em>04</em></span>
-          <h3>Ya eres voluntario!</h3>
+          <h3>{{ 'home.process.steps.volunteer' | translate }}</h3>
         </div>
       </div>
     </div>
     <div class="row row-process">
       <div class="col-12 ">
         <div class="tp-wrap-btn">
-          <button class=" sendmessage_btn" routerLink="/contact" routerLinkActive="active" href="#">
-            Empezar ahora
+          <button
+            class=" sendmessage_btn"
+            routerLink="/contact"
+            routerLinkActive="active"
+            href="#"
+          >
+            {{ 'home.process.steps.btn-volunteer' | translate }}
           </button>
         </div>
       </div>
@@ -140,13 +174,11 @@
   <div class="wrap-cases">
     <div class="col-lg-6 col-md-12 col-sm-12 col-12 col-case">
       <div class="wrap-case ">
-        <div class="case_overlay">
-          <div class="inner_case_overlay"></div>
-        </div>
+        <div class="case_overlay"><div class="inner_case_overlay"></div></div>
         <div class="case_wrap_content">
           <div class="case_t_overlay">
             <div class="wrap_case_title">
-              <h3>Traje típico</h3>
+              <h3>{{ 'home.gallery.pic1' | translate }}</h3>
             </div>
           </div>
         </div>
@@ -155,13 +187,11 @@
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6 col-12 col-case h-col-case">
       <div class="wrap-case ">
-        <div class="case_overlay">
-          <div class="inner_case_overlay"></div>
-        </div>
+        <div class="case_overlay"><div class="inner_case_overlay"></div></div>
         <div class="case_wrap_content">
           <div class="case_t_overlay">
             <div class="wrap_case_title">
-              <h3>Escultura al Dakar</h3>
+              <h3>{{ 'home.gallery.pic2' | translate }}</h3>
             </div>
           </div>
         </div>
@@ -170,13 +200,11 @@
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6 col-12 col-case h-col-case">
       <div class="wrap-case ">
-        <div class="case_overlay">
-          <div class="inner_case_overlay"></div>
-        </div>
+        <div class="case_overlay"><div class="inner_case_overlay"></div></div>
         <div class="case_wrap_content">
           <div class="case_t_overlay">
             <div class="wrap_case_title">
-              <h3>Alpacas</h3>
+              <h3>{{ 'home.gallery.pic3' | translate }}</h3>
             </div>
           </div>
         </div>
@@ -185,13 +213,11 @@
     </div>
     <div class="col-lg-6 col-md-12 col-sm-12 col-12 col-case col-case">
       <div class="wrap-case ">
-        <div class="case_overlay">
-          <div class="inner_case_overlay"></div>
-        </div>
+        <div class="case_overlay"><div class="inner_case_overlay"></div></div>
         <div class="case_wrap_content">
           <div class="case_t_overlay">
             <div class="wrap_case_title">
-              <h3>Mercado</h3>
+              <h3>{{ 'home.gallery.pic6' | translate }}</h3>
             </div>
           </div>
         </div>
@@ -200,13 +226,11 @@
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6 col-12 col-case h-col-case">
       <div class="wrap-case ">
-        <div class="case_overlay">
-          <div class="inner_case_overlay"></div>
-        </div>
+        <div class="case_overlay"><div class="inner_case_overlay"></div></div>
         <div class="case_wrap_content">
           <div class="case_t_overlay">
             <div class="wrap_case_title">
-              <h3>Lago Titicaca</h3>
+              <h3>{{ 'home.gallery.pic4' | translate }}</h3>
             </div>
           </div>
         </div>
@@ -215,13 +239,11 @@
     </div>
     <div class="col-lg-3 col-md-6 col-sm-6 col-12 col-case h-col-case">
       <div class="wrap-case ">
-        <div class="case_overlay">
-          <div class="inner_case_overlay"></div>
-        </div>
+        <div class="case_overlay"><div class="inner_case_overlay"></div></div>
         <div class="case_wrap_content">
           <div class="case_t_overlay">
             <div class="wrap_case_title">
-              <h3>Salar de Uyuni</h3>
+              <h3>{{ 'home.gallery.pic5' | translate }}</h3>
             </div>
           </div>
         </div>
@@ -238,9 +260,10 @@
     <div class="row">
       <div class="col-lg-6 col-md-12 col-12 ">
         <div class="wrap_about_us">
-          <span class="rp-tip"> Elige Bolivia</span>
-          <h2 class="l-head">Un país en crecimiento con parajes increíble</h2>
-          <p></p>
+          <span class="rp-tip">
+            {{ 'home.about-sa.pre-title' | translate }}</span
+          >
+          <h2 class="l-head">{{ 'home.about-sa.title' | translate }}</h2>
           <div class="about_list_row row">
             <ul class="col-lg-6 col-lg-6 col-sm-6 col-12 about_list">
               <li>
@@ -276,7 +299,12 @@
       <div class="col-lg-6 col-md-12 col-12 ">
         <div class="wrap_about_video">
           <img src="../../../assets/images/road.jpg" alt="about vide" />
-          <a href="https://www.youtube.com/watch?v=PHqF0ddTcu4" arget="_blank" class="rq-play-video"><i class="fas fa-play"></i></a>
+          <a
+            href="https://www.youtube.com/watch?v=PHqF0ddTcu4"
+            arget="_blank"
+            class="rq-play-video"
+            ><i class="fas fa-play"></i
+          ></a>
         </div>
       </div>
     </div>
@@ -289,12 +317,13 @@
     <div class="row">
       <div class="col-12">
         <div class="faq-wrap-title">
-          <span class="rp-tip">Faq</span>
-          <h2 class="l-head">Preguntas más frecuentes</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          </p>
+          <span class="rp-tip">{{ 'home.faq.pre-title' | translate }}</span>
+          <h2 class="l-head">{{ 'home.faq.title' | translate }}</h2>
+          <div class="row justify-content-md-center">
+            <div class="col-md-8">
+              <p>{{ 'home.faq.desc' | translate }}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -307,69 +336,16 @@
       <div class="col-lg-6 col-md-12 col-12">
         <div class="wrap_faq">
           <ul class="faq-wrap-list">
-            <li class="faq-list">
+            <li class="faq-list" *ngFor="let q of questions">
               <div class="faq-wrap-text">
                 <div class="faq-wrap-head">
-                  <h4 class="faq-h">Lorem ipsum dolor sit amet?</h4>
-                  <span class="faq-toggle-icon faq-icon-open">
+                  <h4 class="faq-h">{{ q.question }}</h4>
+                  <span class="faq-toggle-icon">
                     <i class="fas fa-chevron-up"></i>
                   </span>
                 </div>
-                <div class="faq-wrap-para faq-open">
-                  <p class="faq-para">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="faq-list">
-              <div class="faq-wrap-text">
-                <div class="faq-wrap-head">
-                  <h4 class="faq-h">Lorem ipsum dolor sit amet?</h4>
-                  <span class="faq-toggle-icon ">
-                    <i class="fas fa-chevron-down"></i>
-                  </span>
-                </div>
                 <div class="faq-wrap-para faq-close">
-                  <p class="faq-para">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="faq-list">
-              <div class="faq-wrap-text">
-                <div class="faq-wrap-head">
-                  <h4 class=" faq-h">Lorem ipsum dolor sit amet?</h4>
-                  <span class="faq-toggle-icon ">
-                    <i class="fas fa-chevron-down"></i>
-                  </span>
-                </div>
-                <div class="faq-wrap-para faq-close ">
-                  <p class="faq-para">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
-                  </p>
+                  <p class="faq-para">{{ q.answer }}</p>
                 </div>
               </div>
             </li>
@@ -381,7 +357,11 @@
 </section>
 
 <!-- testmoanil -->
-<section parallax [config]="{ initialValue: -50, ratio: 0.3 }" class="rafaa-section what_clien_say parallax-image">
+<section
+  parallax
+  [config]="{ initialValue: -50, ratio: 0.3 }"
+  class="rafaa-section what_clien_say parallax-image"
+>
   <div class="container">
     <div class="row testmonail_inner_row">
       <div class="col-12">
@@ -427,15 +407,20 @@
     <div class="row">
       <div class="col-12">
         <div class="requist-qoute-title ">
-          <span class="rp-tip">Contacta con nosotros</span>
-          <h2 class="l-head">Conviertete en voluntario</h2>
-          <p>Accede al formulario y empieza a planear tu voluntariado</p>
+          <span class="rp-tip">{{ 'home.contact.pre-title' | translate }}</span>
+          <h2 class="l-head">{{ 'home.contact.title' | translate }}</h2>
+          <p>{{ 'home.contact.desc' | translate }}</p>
         </div>
         <div class="row">
           <div class="col-12 ">
             <div class="tp-wrap-btn">
-              <button class=" sendmessage_btn" routerLink="/contact" routerLinkActive="active" href="#">
-                Quiero ser voluntario
+              <button
+                class=" sendmessage_btn"
+                routerLink="/contact"
+                routerLinkActive="active"
+                href="#"
+              >
+                {{ 'home.contact.btn-volunteer' | translate }}
               </button>
             </div>
           </div>

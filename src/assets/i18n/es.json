@@ -1,0 +1,212 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "volunteering": "Voluntariado",
+    "tourism": "Turismo & Idiomas",
+    "pricing": "Precios",
+    "collaborate": "Colabora",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "btn-volunteer": "Quiero ser voluntario",
+    "langs": {
+      "es": "Español (ES)",
+      "en": "Inglés (EN)"
+    }
+  },
+
+  "home": {
+    "title": "Heart Of South America",
+    "subtitle": "Vive la experiencia de un voluntariado en Sudamerica",
+    "hos": {
+      "pre-title": "¿Qué es HOS?",
+      "title": "Heart Of South America",
+      "desc": "Somos un grupo de amigos con mentalidad disruptiva que cree que el cambio que el mundo necesita debe realizarse mediante la economía colaborativa y circular",
+      "tourism": "Aprende idiomas viajando",
+      "volunteer": "Vente de voluntariado",
+      "collaborate": "Colabora desde tu casa!"
+    },
+    "quote": "New tourism as a way to solve a problem that matters",
+    "process": {
+      "pre-title": "Nuestro proceso",
+      "title": "Como hacerte voluntario",
+      "desc": "Rellena el formulario en la sección de contacto y nosotros nos pondremos en contacto contigo para los siguientes pasos",
+      "steps": {
+        "info": "Infórmate",
+        "form": "Rellena el formulario",
+        "request": "Aprobamos tu solicitud",
+        "volunteer": "Ya eres voluntario!",
+        "btn-volunteer": "Quiero ser voluntario"
+      }
+    },
+    "gallery": {
+      "pic1": "Traje típico",
+      "pic2": "Escultura del dakar",
+      "pic3": "Alpacas",
+      "pic4": "Lago Titicaca",
+      "pic5": "Salar de Uyuni",
+      "pic6": "Mercado"
+    },
+    "about-sa": {
+      "pre-title": "Elige Sudamérica",
+      "title": "Países en crecimiento con parajes increíbles",
+      "desc": "Lorem ipsum dolor sit amet"
+    },
+    "faq": {
+      "pre-title": "FAQ",
+      "title": "Preguntas más frecuentes",
+      "desc": "Lorem ipsum dolor sit amet",
+      "questions": [{
+        "question": "Lorem ipsum dolor sit amet?",
+        "answer": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      }, {
+        "question": "Lorem ipsum dolor sit amet?",
+        "answer": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      }, {
+        "question": "Lorem ipsum dolor sit amet?",
+        "answer": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      }]
+    },
+    "contact": {
+      "pre-title": "Contacta con nosotros",
+      "title": "Conviertete en Voluntario",
+      "desc": "Comienza tu aventura contandonos un poco más sobre ti",
+      "btn-volunteer": "Quiero ser voluntario"
+    }
+  },
+
+  "volunteering": {
+    "title": "Voluntariados",
+    "subtitle": "Infórmate de los diferentes centros y actividades que desempeñarás durante tu voluntariado",
+    "projects": [{
+        "title": "Orfanato en Bolivia",
+        "description": [
+          "Aldea en el corazón de la ciudad de Santa Cruz de la Sierra, Bolivia. Creada en 1972 por un sacerdote, que todavía vive en la aldea, que emigro a Bolivia desde Austria. La misión con la que fue creada esta aldea y que continua funcionando es la de criar a niños abandonados, maltratados y huérfanos en un ambiente familiar de amor con una “madre” y sus hermanos. Ha crecido hasta contar con un total de X casas unifamiliares. Cada casa tiene una “mama” y 10-12 niños a los que se les proporciona todos los beneficios emocionales y sociales de crecer en un ambiente familiar amoroso.",
+          "También cuenta con una guardería en la cual hay espacio para 80 bebes y niños (desde bebé hasta 6 años).",
+          "La aldea cuenta con su propio colegio, unidad odontológica, enfermería, taller, polideportivo, etc..."
+        ],
+        "country": "Bolivia",
+        "city": "Santa Cruz de la Sierra",
+        "tags": "voluntariado niños enseñanza cuidados",
+        "image1": "../../../assets/images/uyuni.jpg",
+        "image2": "../../../assets/images/market.jpg",
+        "image3": "../../../assets/images/titicaca.jpg"
+      },
+      {
+        "title": "Centro de formación y Capacitación para jóvenes con pocos recursos ",
+        "description": [
+          "Centro de Formación y Capacitación proyectado con la finalidad de ofrecer formación y capacitación técnica como así también para retiros espirituales en primer lugar para los niños y jóvenes, para el personal (mamás de casa, tías, y otros) como ayuda adicional para lograr mejores resultados a favor de los niños y jóvenes."
+        ],
+        "country": "Bolivia",
+        "city": "Santa Cruz de la Sierra",
+        "tags": "voluntariado formación jovenes",
+        "image1": "../../../assets/images/uyuni.jpg",
+        "image2": "../../../assets/images/market.jpg",
+        "image3": "../../../assets/images/titicaca.jpg"
+      },
+      {
+        "title": "Centro de Madres Solteras “Madre María”",
+        "description": [
+          "Proyecto contra el abandono de niños con capacidad para 50 madres solteras. Esta obra tiene la finalidad de ayudar a madres solteras en momentos de problemas y necesidades, ayudarlas como madres y darles una tecnificación personal para que puedan educarse de forma autónoma en la vida futura y críen a sus hijos con amor y evitar de esta manera de que hayan más niños huérfanos y abandonados"
+        ],
+        "country": "Bolivia",
+        "city": "Santa Cruz de la Sierra",
+        "tags": "voluntariado madres niños formación",
+        "image1": "../../../assets/images/uyuni.jpg",
+        "image2": "../../../assets/images/market.jpg",
+        "image3": "../../../assets/images/titicaca.jpg"
+      }
+    ]
+  },
+
+  "tourism": {
+    "title": "Turismo & Idiomas",
+    "subtitle": "Infórmate de los diferentes centros y todas las oportunidades que ofrece",
+    "data": [{
+      "title": "Escuela de Español en Valparaíso",
+      "description": [
+        "Realiza una inmersión en una residencia en Chile mientras estudias, viajas, comes y disfrutas de la vida de Valparaíso con nuestro programa de inmersión lingüística.",
+        "Compartirás la experiencia con los trabajadores de un café restaurante, con un profesor privado de Español y un guía turístico que te enseñara los mejores rincones de la ciudad y el increíble entorno que lo rodea."
+      ],
+      "country": "Chile",
+      "city": "Valparaíso",
+      "tags": "turismo aventura idomas español",
+      "image1": "../../../assets/images/uyuni.jpg",
+      "image2": "../../../assets/images/market.jpg",
+      "image3": "../../../assets/images/titicaca.jpg"
+    }]
+  },
+
+  "pricing": {
+    "title": "Precios",
+    "Subtitle": "Elige entre los planes de una a cuatro semanas de duración",
+    "included": {
+      "pre-title": "Incluído en el precio",
+      "title": "Qué incluye y qué NO incluye",
+      "desc": "Aunque no podemos ofrecerte todo incluído, te guiaremos con nuestra experiencia y te proporcionaremos diferentes precios y coberturas con diferentes compañías.",
+      "what-is-included": {
+        "title": "¿Qué está incluído?",
+        "is-included": [
+          "Alojamiento en el mismo centro en el que ayudarás",
+          "Tres comidas al día",
+          "Gastos de transporte el día de llegada y vuelta desde el aeropuerto"
+        ],
+        "not-included": [
+          "Vacunas necesarias y seguro de viaje",
+          "Billetes de avión de ida y vuelta",
+          "Excursiones y / o visitas turisticas(te proporcionaremos algunos descuentos)"
+        ]
+      }
+    },
+    "money": {
+      "pre-title": "División del dinero",
+      "title": "Qué hacemos con el dinero",
+      "desc": "Te explicamos a dónde va el dinero que nos proporcionas",
+      "text": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      ],
+      "food": "Alojamiento y comida",
+      "develop": "Desarrollo de la aldea",
+      "commission": "Gestión y comisión"
+    },
+    "plans": {
+      "pre-title": "Precios",
+      "title": "Elige la duración que mejor se adapte a ti",
+      "desc": "Todos nuestros planes incluyen las mismas condiciones. La única diferencian en la duración.",
+      "options": [{
+          "weeks": "1 semana",
+          "price": "500€",
+          "included": ["Alojamiento", "Comidas incluídas", "Excursiones planificadas"],
+          "choose": "Elegir"
+        }, {
+          "weeks": "2 semana",
+          "price": "900",
+          "included": ["Alojamiento", "Comidas incluídas", "Excursiones planificadas"],
+          "choose": "Elegir"
+        },
+        {
+          "weeks": "3 semana",
+          "price": "1200",
+          "included": ["Alojamiento", "Comidas incluídas", "Excursiones planificadas"],
+          "choose": "Elegir"
+        }, {
+          "weeks": "4 semana",
+          "price": "1500€",
+          "included": ["Alojamiento", "Comidas incluídas", "Excursiones planificadas"],
+          "choose": "Elegir"
+        }
+      ]
+    }
+
+  },
+
+  "footer": {
+    "social-media": "Redes Sociales",
+    "contact": "Contacto",
+    "links": "Links Utiles",
+    "privacy": "Política de privacidad",
+    "cookies": "Política de Cookie",
+    "terms": "Terminos & condiciones"
+  }
+
+}

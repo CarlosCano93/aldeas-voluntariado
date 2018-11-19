@@ -1,0 +1,16 @@
+{
+  "navbar": {
+    "home": "Home",
+    "volunteering": "Volunteering",
+    "tourism": "Tourism & Languajes",
+    "pricing": "Price",
+    "collaborate": "Collaborate",
+    "about": "About us",
+    "contact": "Contact",
+    "beVolunteer": "I want to volunteer",
+    "langs": {
+      "es": "Spanish (ES)",
+      "en": "English (EN)"
+    }
+  }
+}
