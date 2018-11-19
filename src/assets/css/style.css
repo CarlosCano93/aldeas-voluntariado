@@ -822,7 +822,7 @@ img {
   box-shadow: 0 2px 20px 0 hsla(0, 0%, 0%, 0.06);
   border-radius: 5px;
 }
-
+/*
 .feature-service-img::before {
   content: "";
   position: absolute;
@@ -834,7 +834,7 @@ img {
   background: #f6364d;
   border-radius: 5px;
 }
-
+*/
 .f-service-row:last-child .feature-service-img::before {
   right: -24px;
   left: 66px;

@@ -2,6 +2,11 @@
   background: #f7f8f9;
 }
 
-.rafaa-section.r-why-chooseus.wc-service-page.even {
+.rafaa-section.about-us-features, .rafaa-section.r-vmw {
   background: #fff;
+}
+
+.parallax-image {
+  background-image: url('/../../../../assets/css/imgs/death-road.jpg');
+
 }
