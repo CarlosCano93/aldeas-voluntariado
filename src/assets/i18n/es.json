@@ -189,6 +189,40 @@
     ]
   },
 
+  "about": {
+    "title": "Sobre nosotros",
+    "subtitle": "Con estas ideas en mente Heart Of Southamerica echar a andar en el año 2018",
+    "who-we-are": {
+      "title": "Quiénes somos",
+      "text": "Somos un grupo de amigos con <strong>mentalidad disruptiva</strong> que cree que el cambio que el mundo necesita debe realizarse mediante la economía colaborativa y circular"
+    },
+    "vision": {
+      "title": "Visión",
+      "text": "Creemos que un modelo alternativo de sociedad debe creer en el avance de países en desarrollo como Bolivia, y que esto se consigue no solo con ayudas económicas sino con el <strong>intercambio cultural</strong> y el aporte de nuevas ideas."
+    },
+    "why-choose-us": {
+      "title": "Por qué elegirnos",
+      "text": " Para hacer <em>“EL PLANETA GRANDE DE NUEVO”</em> necesitamos un cambio de mentalidad, proponiendo desde <strong>HEARTHOFSOUTHAMERICA</strong> un turismo asociado a una nueva generación comprometida con el desarrollo local."
+    },
+    "quote": {
+      "text": "El mundo tal y como lo conocemos ahora va a desaparecer. Ya no se entiende un sistema económico que no tenga en cuenta la sostenibilidad",
+      "position": "Sociólogo, economista y escritor"
+    },
+    "idea": {
+      "how": {
+        "title": "¿Cómo nace la idea de Heart of South America?",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "why": {
+        "title": "¿Por qué ahora? ¿Por qué Bolivia?",
+        "text": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      }
+    }
+  },
+
+  "contact": {
+  },
+
   "footer": {
     "social-media": "Redes Sociales",
     "contact": "Contacto",

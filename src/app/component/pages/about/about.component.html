@@ -6,31 +6,23 @@
           <div class="col-lg-4 col-md-12 col-sm-12 col-12 col_abotu_2">
               <div class="wrap_who_we_are ">
                   <span class="whoweare_icon"><i class="fas fa-pen"></i></span>
-                  <h3>Quienes somos</h3>
-                  <p>
-                    Somos un grupo de amigos con <strong>mentalidad disruptiva</strong> que cree que el cambio que el mundo necesita debe
-                    realizarse mediante la economía colaborativa y circular.
-                  </p>
+                  <h3 translate="about.who-we-are.title"></h3>
+                  <p [innerHTML]="'about.who-we-are.text' | translate"></p>
+
               </div>
           </div>
           <div class="col-lg-4 col-md-12 col-12 col_abotu_2">
               <div class="wrap_our_vission_2 ">
                   <span class="whoweare_icon"><i class="fas fa-lightbulb"></i></span>
-                  <h3>Visión</h3>
-                  <p>
-                    Creemos que un modelo alternativo de sociedad debe creer en el avance de países en desarrollo como Bolivia, y
-                    que esto se consigue no solo con ayudas económicas sino con el <strong>intercambio cultural</strong> y el aporte de nuevas ideas.
-                  </p>
+                  <h3 translate="about.vision.title"></h3>
+                  <p [innerHTML]="'about.vision.text' | translate"></p>
               </div>
           </div>
           <div class="col-lg-4 col-md-12 col-12 col_abotu_2">
               <div class="wrap_why_us ">
                   <span class="whoweare_icon"><i class="fas fa-fire"></i></span>
-                  <h3>Por qué elegirnos</h3>
-                  <p>
-                    Para hacer <em>“EL PLANETA GRANDE DE NUEVO”</em> necesitamos un cambio de mentalidad, proponiendo desde <strong>HEARTHOFSOUTHAMERICA</strong> un
-                    turismo asociado a una nueva generación comprometida con el desarrollo local.
-                  </p>
+                  <h3 translate="about.why-choose-us.title"></h3>
+                  <p [innerHTML]="'about.why-choose-us.text' | translate"></p>
               </div>
           </div>
       </div>
@@ -42,11 +34,9 @@
       <div class="row">
         <div class="col-12">
           <div class="r-testmonail">
-              <p>
-                El mundo tal y como lo conocemos ahora va a desaparecer. Ya no se entiende un sistema económico que no tenga en cuenta la sostenibilidad
-              </p>
+              <p translate="about.quote.text"></p>
               <h4>
-                Jeremy Rifkin <span class="cleint-position">Sociólogo, economista y escritor</span>
+                Jeremy Rifkin <span class="cleint-position">{{ 'about.quote.author' | translate}}</span>
               </h4>
           </div>
         </div>
@@ -66,34 +56,16 @@
           </div>
           <div class="col-lg-6 col-md-12 col-12 col-fs-text">
               <div class="feature-service-content ">
-                  <h2 class="m-head">¿Cómo nace la idea de Heart of South America?</h2>
-                  <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                      occaecat cupidatat non proident, sunt in culpa qui officia
-                      deserunt mollit anim id est laborum.
-                  </p>
+                  <h2 class="m-head">{{ 'about.idea.how.title' | translate }}</h2>
+                  <p translate="about.idea.how.text"></p>
               </div>
           </div>
       </div>
       <div class="row align-items-center f-service-row">
           <div class="col-lg-6 col-md-12 col-12 col-fs-text">
               <div class="feature-service-content ">
-                  <h2 class="m-head">¿Por qué ahora? ¿Por qué Bolivia?</h2>
-                  <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                      do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                      occaecat cupidatat non proident, sunt in culpa qui officia
-                      deserunt mollit anim id est laborum.
-                  </p>
+                  <h2 class="m-head">{{ 'about.idea.why.title' | translate }}</h2>
+                  <p translate="about.idea.why.text"></p>
               </div>
           </div>
           <div class="col-lg-6 col-md-12 col-12 col-fs-img">
@@ -110,15 +82,15 @@
     <div class="row">
       <div class="col-12">
         <div class="requist-qoute-title ">
-          <span class="rp-tip">Contacta con nosotros</span>
-          <h2 class="l-head">Conviertete en voluntario</h2>
-          <p>Accede al formulario y empieza a planear tu voluntariado</p>
+          <span class="rp-tip">{{ 'home.contact.pre-title' | translate }}</span>
+          <h2 class="l-head">{{ 'home.contact.title' | translate }}</h2>
+          <p>{{ 'home.contact.desc' | translate }}</p>
         </div>
         <div class="row">
           <div class="col-12 ">
             <div class="tp-wrap-btn">
-              <button class=" sendmessage_btn" routerLink="/contact" routerLinkActive="active" href="#">
-                Quiero ser voluntario
+              <button class=" sendmessage_btn" routerLink="/contact" routerLinkActive="active">
+                {{ 'home.contact.btn-volunteer' | translate }}
               </button>
             </div>
           </div>
