@@ -121,7 +121,7 @@
   "tourism": {
     "title": "Turismo & Idiomas",
     "subtitle": "Infórmate de los diferentes centros y todas las oportunidades que ofrece",
-    "data": [{
+    "projects": [{
       "title": "Escuela de Español en Valparaíso",
       "description": [
         "Realiza una inmersión en una residencia en Chile mientras estudias, viajas, comes y disfrutas de la vida de Valparaíso con nuestro programa de inmersión lingüística.",
@@ -136,35 +136,35 @@
     }]
   },
 
+  "projects": {
+    "county": "País",
+    "city": "City",
+    "Tags": "Tags"
+  },
+
   "pricing": {
     "title": "Precios",
-    "Subtitle": "Elige entre los planes de una a cuatro semanas de duración",
+    "subtitle": "Elige entre los planes de una a cuatro semanas de duración",
     "included": {
       "pre-title": "Incluído en el precio",
       "title": "Qué incluye y qué NO incluye",
       "desc": "Aunque no podemos ofrecerte todo incluído, te guiaremos con nuestra experiencia y te proporcionaremos diferentes precios y coberturas con diferentes compañías.",
-      "what-is-included": {
-        "title": "¿Qué está incluído?",
-        "is-included": [
-          "Alojamiento en el mismo centro en el que ayudarás",
-          "Tres comidas al día",
-          "Gastos de transporte el día de llegada y vuelta desde el aeropuerto"
-        ],
-        "not-included": [
-          "Vacunas necesarias y seguro de viaje",
-          "Billetes de avión de ida y vuelta",
-          "Excursiones y / o visitas turisticas(te proporcionaremos algunos descuentos)"
-        ]
-      }
+      "lodgment": "Alojamiento en el mismo centro en el que ayudarás",
+      "meals-included": "Tres comidas al día",
+      "airport-movility": "Gastos de transporte el día de llegada y vuelta desde el aeropuerto",
+      "vaccine": "Vacunas necesarias",
+      "travel-insurance": "seguro de viaje",
+      "air-tickets": "Billetes de avión de ida y vuelta",
+      "tours": "Excursiones y / o visitas turisticas(te proporcionaremos algunos descuentos)"
     },
     "money": {
       "pre-title": "División del dinero",
       "title": "Qué hacemos con el dinero",
       "desc": "Te explicamos a dónde va el dinero que nos proporcionas",
-      "text": [
+      "text1":
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      ],
+      "text2":
+        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "food": "Alojamiento y comida",
       "develop": "Desarrollo de la aldea",
       "commission": "Gestión y comisión"
@@ -173,31 +173,20 @@
       "pre-title": "Precios",
       "title": "Elige la duración que mejor se adapte a ti",
       "desc": "Todos nuestros planes incluyen las mismas condiciones. La única diferencian en la duración.",
-      "options": [{
-          "weeks": "1 semana",
-          "price": "500€",
-          "included": ["Alojamiento", "Comidas incluídas", "Excursiones planificadas"],
-          "choose": "Elegir"
-        }, {
-          "weeks": "2 semana",
-          "price": "900",
-          "included": ["Alojamiento", "Comidas incluídas", "Excursiones planificadas"],
-          "choose": "Elegir"
-        },
-        {
-          "weeks": "3 semana",
-          "price": "1200",
-          "included": ["Alojamiento", "Comidas incluídas", "Excursiones planificadas"],
-          "choose": "Elegir"
-        }, {
-          "weeks": "4 semana",
-          "price": "1500€",
-          "included": ["Alojamiento", "Comidas incluídas", "Excursiones planificadas"],
-          "choose": "Elegir"
-        }
-      ]
-    }
-
+      "options": {
+          "week": "semana",
+          "lodgment": "Alojamiento",
+          "meals-included": "Comidas incluidas",
+          "tours": "Excursiones planificadas",
+          "choose": "Elegir",
+          "best-option": "Mejor opción"
+      }
+    },
+    "doughnutChartLabels": [
+      "Alojamiento y comidas",
+      "Desarrollo de la aldea",
+      "Gestión y comisión"
+    ]
   },
 
   "footer": {

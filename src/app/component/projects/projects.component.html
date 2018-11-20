@@ -8,13 +8,13 @@
       </div>
       <div class="col-lg-4 col-md-12 col-12">
         <ul class="wrap_project_info" [class.background-gray]="isOdd">
-          <li><strong>País: </strong>
+          <li><strong>{{ 'projects.country' | translate }}: </strong>
             <p>{{ d.country }}</p>
           </li>
-          <li><strong>Ciudad: </strong>
+          <li><strong>{{ 'projects.city' | translate }}: </strong>
             <p>{{ d.city }}</p>
           </li>
-          <li><strong>Tags: </strong>
+          <li><strong>{{ 'projects.tags' | translate }}: </strong>
             <p>{{ d.tags }}</p>
           </li>
         </ul>
