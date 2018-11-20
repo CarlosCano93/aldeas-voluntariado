@@ -826,6 +826,7 @@ a {
   box-shadow: 0 2px 20px 0 hsla(0, 0%, 0%, 0.06);
   border-radius: 5px;
 }
+
 /*
 .feature-service-img::before {
   content: "";
@@ -1792,6 +1793,7 @@ a {
 .ser_icon_2 {
   display: inline-block;
   padding-bottom: 24px;
+  font-size: 40px;
 }
 
 .service-2-content h3 {
@@ -1822,6 +1824,10 @@ a {
 .wrap-service-2:hover a {
   background: #f6364d;
   color: #fff;
+}
+
+.wrap-service-2:hover span i {
+  color: #f6364d;
 }
 
 

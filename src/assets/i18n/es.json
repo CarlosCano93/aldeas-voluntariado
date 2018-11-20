@@ -87,9 +87,9 @@
         "country": "Bolivia",
         "city": "Santa Cruz de la Sierra",
         "tags": "voluntariado niños enseñanza cuidados",
-        "image1": "../../../assets/images/uyuni.jpg",
-        "image2": "../../../assets/images/market.jpg",
-        "image3": "../../../assets/images/titicaca.jpg"
+        "image1": "../../assets/images/uyuni.jpg",
+        "image2": "../../assets/images/market.jpg",
+        "image3": "../../assets/images/titicaca.jpg"
       },
       {
         "title": "Centro de formación y Capacitación para jóvenes con pocos recursos ",
@@ -99,9 +99,9 @@
         "country": "Bolivia",
         "city": "Santa Cruz de la Sierra",
         "tags": "voluntariado formación jovenes",
-        "image1": "../../../assets/images/uyuni.jpg",
-        "image2": "../../../assets/images/market.jpg",
-        "image3": "../../../assets/images/titicaca.jpg"
+        "image1": "../../assets/images/uyuni.jpg",
+        "image2": "../../assets/images/market.jpg",
+        "image3": "../../assets/images/titicaca.jpg"
       },
       {
         "title": "Centro de Madres Solteras “Madre María”",
@@ -111,9 +111,9 @@
         "country": "Bolivia",
         "city": "Santa Cruz de la Sierra",
         "tags": "voluntariado madres niños formación",
-        "image1": "../../../assets/images/uyuni.jpg",
-        "image2": "../../../assets/images/market.jpg",
-        "image3": "../../../assets/images/titicaca.jpg"
+        "image1": "../../assets/images/uyuni.jpg",
+        "image2": "../../assets/images/market.jpg",
+        "image3": "../../assets/images/titicaca.jpg"
       }
     ]
   },
@@ -130,16 +130,16 @@
       "country": "Chile",
       "city": "Valparaíso",
       "tags": "turismo aventura idomas español",
-      "image1": "../../../assets/images/uyuni.jpg",
-      "image2": "../../../assets/images/market.jpg",
-      "image3": "../../../assets/images/titicaca.jpg"
+      "image1": "../../assets/images/uyuni.jpg",
+      "image2": "../../assets/images/market.jpg",
+      "image3": "../../assets/images/titicaca.jpg"
     }]
   },
 
   "projects": {
-    "county": "País",
+    "country": "País",
     "city": "Ciudad",
-    "Tags": "Tags"
+    "tags": "Tags"
   },
 
   "pricing": {
@@ -161,10 +161,8 @@
       "pre-title": "División del dinero",
       "title": "Qué hacemos con el dinero",
       "desc": "Te explicamos a dónde va el dinero que nos proporcionas",
-      "text1":
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "text2":
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "text1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "text2": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "food": "Alojamiento y comida",
       "develop": "Desarrollo de la aldea",
       "commission": "Gestión y comisión"
@@ -174,12 +172,12 @@
       "title": "Elige la duración que mejor se adapte a ti",
       "desc": "Todos nuestros planes incluyen las mismas condiciones. La única diferencian en la duración.",
       "options": {
-          "week": "semana",
-          "lodgment": "Alojamiento",
-          "meals-included": "Comidas incluidas",
-          "tours": "Excursiones planificadas",
-          "choose": "Elegir",
-          "best-option": "Mejor opción"
+        "week": "semana",
+        "lodgment": "Alojamiento",
+        "meals-included": "Comidas incluidas",
+        "tours": "Excursiones planificadas",
+        "choose": "Elegir",
+        "best-option": "Mejor opción"
       }
     },
     "doughnutChartLabels": [
