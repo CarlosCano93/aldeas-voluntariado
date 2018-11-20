@@ -221,6 +221,37 @@
   },
 
   "contact": {
+    "title": "Contacto",
+    "subtitle": "Rellena el formulario para iniciar tu solicitud",
+    "join-group": "Únete a nuestro grupo",
+    "doubts": "Pregunta dudas",
+    "form": {
+      "name": "Nombre",
+      "lastname": "Apellido",
+      "phone": "Teléfono",
+      "email": "Email",
+      "education": "Estudios",
+      "nacionality": "Nacionalidad",
+      "birthday": "Fecha de nacimiento",
+      "spanish-level": "Nivel de Español",
+      "basic": "Básico",
+      "medium": "Medio",
+      "high": "Alto",
+      "native": "Nativo",
+      "know-us": "Cómo nos conociste",
+      "friends": "Amigos",
+      "internet": "Internet",
+      "social-media": "Redes sociales",
+      "publicity": "Publicidad",
+      "length-stay": "Duración de la estancia",
+      "plan-1-week": "Plan for 1 week",
+      "plan-2-week": "Plan for 2 week",
+      "plan-3-week": "Plan for 3 week",
+      "plan-4-week": "Plan for 4 week",
+      "want-be-volunteer": "Quiero ser voluntario porque...",
+      "volunteer-experience": "He estado en otros voluntariados como...",
+      "send-request": "Enviar petición"
+    }
   },
 
   "footer": {
@@ -228,8 +259,8 @@
     "contact": "Contacto",
     "links": "Links Utiles",
     "privacy": "Política de privacidad",
-    "cookies": "Política de Cookie",
-    "terms": "Terminos & condiciones"
+    "cookies": "Política de Cookies",
+    "terms": "Términos & condiciones"
   }
 
 }
