@@ -336,15 +336,15 @@
       <div class="col-lg-6 col-md-12 col-12">
         <div class="wrap_faq">
           <ul class="faq-wrap-list">
-            <li class="faq-list" *ngFor="let q of questions">
+            <li class="faq-list" *ngFor="let q of questions; let first = first">
               <div class="faq-wrap-text">
                 <div class="faq-wrap-head">
                   <h4 class="faq-h">{{ q.question }}</h4>
-                  <span class="faq-toggle-icon">
+                  <span class="faq-toggle-icon" [class.faq-icon-open]="first">
                     <i class="fas fa-chevron-up"></i>
                   </span>
                 </div>
-                <div class="faq-wrap-para faq-close">
+                <div class="faq-wrap-para" [class.faq-close]="!first" [class.faq-open]="first">
                   <p class="faq-para">{{ q.answer }}</p>
                 </div>
               </div>
