@@ -254,6 +254,41 @@
     }
   },
 
+  "collaborate": {
+    "title": "Help us to grow up!",
+    "subtitle": "There are many ways to collaborate with us",
+    "ways-to-collaborate": {
+      "pre-title": "Formas de ayudar",
+      "title": "Elige como quieres colaborar",
+      "desc": "No todo es la aventura del voluntariado, explora aquí todas las formas que tienes de colaborar con nostros y ayudarnos",
+      "be-volunteer": {
+        "title": "Vente de voluntario",
+        "text": "La forma más directa y la que te recomendamos hacer. Vivir la experiencia de un voluntariado te puede cambiar la forma de ver el mundo."
+      },
+      "donate": {
+        "title": "Donaciones",
+        "text": "Ponte en contacto con nosotros para saber que necesita cada centro. Y así podrás tanto enviar como traer tu mismo cuando vengas de voluntario! <br> También disponemos de cuentas abiertas para hacer ingresos directos."
+      },
+      "share": {
+        "title": "Comparte en Redes",
+        "text": "Un click! Algo tan sencillo puede ser de gran ayuda. Imagina que tu no puedes hacer el voluntariado, pero compartes en tu muro de facebook y uno de tus contactos decide venir! Gracias a ese click tendríamos un volutnario más!"
+      },
+      "org": {
+        "title": "Para organizaciones",
+        "text": "Si eres una organización o dispones de contactos donde necesiten y puedan acoger voluntarios, ponte en contacto con nosotros para que podamos llegar hata allí!"
+      },
+      "influencer": {
+        "title": "Para influencers",
+        "text": "Si quieres hablar de nosotros en tus redes, web o blog no dudes en consultarnos! Estamos abiertos a todo tipo de colaboraciones!"
+      },
+      "ideas": {
+        "title": "Nuevas ideas",
+        "text": "Siempre se puede mejorar! Si tienes nuevas ideas, propuestas de cambios y/o críticas constructivas, queremos escucharlas! "
+      }
+    },
+    "contact": "¡Cuéntanos tus ideas!"
+  },
+
   "footer": {
     "social-media": "Redes Sociales",
     "contact": "Contacto",

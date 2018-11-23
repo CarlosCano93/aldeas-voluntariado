@@ -1,0 +1,7 @@
+.parallax-image {
+  background-image: url('/../../../../assets/css/imgs/death-road.jpg');
+}
+
+.contact_list h2, .contact_list h4 {
+  color: white;
+}

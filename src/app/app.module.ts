@@ -21,6 +21,7 @@ import { TourismComponent } from './pages/tourism/tourism.component';
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { CollaborateComponent } from './pages/collaborate/collaborate.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -38,7 +39,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     ContactComponent,
     AboutComponent,
     VolunteeringComponent,
-    TourismComponent
+    TourismComponent,
+    CollaborateComponent
   ],
   imports: [
     BrowserModule,
