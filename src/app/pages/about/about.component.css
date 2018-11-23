@@ -7,5 +7,9 @@
 }
 
 .parallax-image {
-  background-image: url('/../../../../assets/css/imgs/death-road.jpg');
+  background-image: url('/../../../../assets/css/imgs/firstpage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }

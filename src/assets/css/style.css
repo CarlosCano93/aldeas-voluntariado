@@ -184,8 +184,6 @@ a {
 }
 
 
-
-
 /* 2 -  colors and background used */
 
 .p_color {
@@ -1656,7 +1654,7 @@ a {
 /* 12- intro index layout 2 */
 
 .rafaa-intro {
-  background: url(imgs/death-road.jpg);
+  background: url(imgs/firstpage.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

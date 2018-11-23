@@ -8,30 +8,33 @@
 }
 
 .parallax-image {
-  background-image: url('/../../../assets/images/bolivia-uyuni.jpg');
-
+  background-image: url('/../../../assets/css/imgs/firstpage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 .wrap_case_image_0 {
-  background-image: url('../../../assets/images/woman.jpg');
+  background-image: url('../../../assets/images/gallery/gallery_1.jpg');
 }
 
 .wrap_case_image_1 {
-  background-image: url('../../../assets/images/dakar.jpg');
+  background-image: url('../../../assets/images/gallery/gallery_2.jpg');
 }
 
 .wrap_case_image_2 {
-  background-image: url('../../../assets/images/alpacas.jpg');
+  background-image: url('../../../assets/images/gallery/gallery_3.jpg');
 }
 
 .wrap_case_image_3 {
-  background-image: url('../../../assets/images/market.jpg');
+  background-image: url('../../../assets/images/gallery/gallery_4.jpg');
 }
 
 .wrap_case_image_4 {
-  background-image: url('../../../assets/images/titicaca.jpg');
+  background-image: url('../../../assets/images/gallery/gallery_5.jpg');
 }
 
 .wrap_case_image_5 {
-  background-image: url('../../../assets/images/uyuni.jpg');
+  background-image: url('../../../assets/images/gallery/gallery_6.jpg');
 }

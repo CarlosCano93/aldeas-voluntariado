@@ -87,9 +87,9 @@
         "country": "Bolivia",
         "city": "Santa Cruz de la Sierra",
         "tags": "volunteer children education care",
-        "image1": "../../../assets/images/uyuni.jpg",
-        "image2": "../../../assets/images/market.jpg",
-        "image3": "../../../assets/images/titicaca.jpg"
+        "image1": "../../../assets/images/projects/project_1.jpg",
+        "image2": "../../../assets/images/projects/project_2.jpg",
+        "image3": "../../../assets/images/projects/project_3.jpg"
       },
       {
         "title": "Training center for young people with few resources",
@@ -99,9 +99,9 @@
         "country": "Bolivia",
         "city": "Santa Cruz de la Sierra",
         "tags": "volunteer education young",
-        "image1": "../../../assets/images/uyuni.jpg",
-        "image2": "../../../assets/images/market.jpg",
-        "image3": "../../../assets/images/titicaca.jpg"
+        "image1": "../../../assets/images/projects/project_4.jpg",
+        "image2": "../../../assets/images/projects/project_5.jpg",
+        "image3": "../../../assets/images/projects/project_6.jpg"
       },
       {
         "title": "Single Mothers Center “Madre María”",
@@ -111,9 +111,9 @@
         "country": "Bolivia",
         "city": "Santa Cruz de la Sierra",
         "tags": "volunteer mothers children education",
-        "image1": "../../../assets/images/uyuni.jpg",
-        "image2": "../../../assets/images/market.jpg",
-        "image3": "../../../assets/images/titicaca.jpg"
+        "image1": "../../../assets/images/projects/project_7.jpg",
+        "image2": "../../../assets/images/projects/project_8.jpg",
+        "image3": "../../../assets/images/projects/project_9.jpg"
       }
     ]
   },
@@ -130,9 +130,9 @@
       "country": "Chile",
       "city": "Valparaíso",
       "tags": "tourism adventure languajes spanish",
-      "image1": "../../../assets/images/uyuni.jpg",
-      "image2": "../../../assets/images/market.jpg",
-      "image3": "../../../assets/images/titicaca.jpg"
+      "image1": "../../../assets/images/projects/project_10.jpg",
+      "image2": "../../../assets/images/projects/project_11.jpg",
+      "image3": "../../../assets/images/projects/project_12.jpg"
     }]
   },
 
