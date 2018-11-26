@@ -137,7 +137,7 @@ h5 {
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   margin-bottom: 25px;
 }
@@ -1590,12 +1590,12 @@ a {
 
 .privacy_list li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 5px;
   color: #eee;
 }
 
 .privacy_list li a {
-  margin-right: 10px;
+  margin-right: 5px;
   font-size: 12px;
 }
 
@@ -1774,7 +1774,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 30px;
+  margin: 0px auto 30px auto;
   transition: box-shadow .4s;
   -webkit-transition: all .4s;
   -moz-transition: all .4s;

@@ -6,6 +6,10 @@
   background-position: center;
 }
 
-.contact_list h2, .contact_list h4 {
+.contact_list h2, .contact_list h6 {
   color: white;
+}
+
+.contact_list li {
+  width: 100%;
 }
