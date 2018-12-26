@@ -38,3 +38,7 @@
 .wrap_case_image_5 {
   background-image: url('../../../assets/images/gallery/gallery_6.jpg');
 }
+
+.wrap-about-title>.l-head {
+  color: white;
+}

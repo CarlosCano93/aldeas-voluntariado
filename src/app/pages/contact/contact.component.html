@@ -4,6 +4,8 @@
     <div class="row">
       <div class="offset-lg-2 col-lg-8 offset-md-1 col-md-10 col-sm-12 offset-sm-0 col-12">
         <div class="wrap_contact_page">
+          <div class="alert alert-danger" role="alert">Todavía no podemos recibir tus datos. Estos trabajando en
+            nuestras políticas de privacidad!</div>
           <ul class="contact_list">
             <li>
               <span class="contact_icon"><i class="fas fa-phone"></i></span>
@@ -13,7 +15,7 @@
             <li>
               <span class="contact_icon"><i class="fas fa-envelope"></i></span>
               <h3>{{ 'contact.doubts' | translate }}</h3>
-              <p>contact@heartofsouthamerica.com</p>
+              <p>contacto@heartofsouthamerica.org</p>
             </li>
           </ul>
           <div class="rq-wrap-form">
@@ -21,14 +23,14 @@
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="text" name="tp-name" id="name" [(ngModel)]="volunteer.name" class="tp-feild tp-user-name"
-                      required [placeholder]="'contact.form.name' | translate"/>
+                    <input disabled type="text" name="tp-name" id="name" [(ngModel)]="volunteer.name" class="tp-feild tp-user-name"
+                      required [placeholder]="'contact.form.name' | translate" />
                   </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="text" name="tp-surname" id="tp-surname" [(ngModel)]="volunteer.lastName" class="tp-feild tp-user-name"
-                      required [placeholder]="'contact.form.lastname' | translate" />
+                    <input disabled type="text" name="tp-surname" id="tp-surname" [(ngModel)]="volunteer.lastName"
+                      class="tp-feild tp-user-name" required [placeholder]="'contact.form.lastname' | translate" />
                   </p>
                 </div>
               </div>
@@ -36,13 +38,13 @@
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="text" name="tp-phone" id="tp-phone" [(ngModel)]="volunteer.telephone" class="tp-feild tp-phone"
+                    <input disabled type="text" name="tp-phone" id="tp-phone" [(ngModel)]="volunteer.telephone" class="tp-feild tp-phone"
                       required [placeholder]="'contact.form.phone' | translate" />
                   </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="email" name="tp-email" id="tp-email" [(ngModel)]="volunteer.email" class="tp-feild tp-email"
+                    <input disabled type="email" name="tp-email" id="tp-email" [(ngModel)]="volunteer.email" class="tp-feild tp-email"
                       required [placeholder]="'contact.form.email' | translate" />
                   </p>
                 </div>
@@ -51,13 +53,13 @@
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="text" name="tp-education" id="tp-education" [(ngModel)]="volunteer.education" class="tp-feild tp-education"
-                      [placeholder]="'contact.form.education' | translate " />
+                    <input disabled type="text" name="tp-education" id="tp-education" [(ngModel)]="volunteer.education"
+                      class="tp-feild tp-education" [placeholder]="'contact.form.education' | translate " />
                   </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
-                    <input type="text" name="tp-nacionality" id="tp-nacionality" [(ngModel)]="volunteer.nacionality"
+                    <input disabled type="text" name="tp-nacionality" id="tp-nacionality" [(ngModel)]="volunteer.nacionality"
                       class="tp-feild tp-nacionality" [placeholder]="'contact.form.nacionality' | translate " />
                   </p>
                 </div>
@@ -67,14 +69,14 @@
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
                     <label for="tp-birthday">{{ 'contact.form.birthday' | translate }}</label>
-                    <input type="date" name="tp-birthday" id="tp-birthday" [(ngModel)]="volunteer.birthday" class="tp-feild tp-birthday"
-                      value="2000-01-01" />
+                    <input disabled type="date" name="tp-birthday" id="tp-birthday" [(ngModel)]="volunteer.birthday"
+                      class="tp-feild tp-birthday" value="2000-01-01" />
                   </p>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
                     <label for="tp-spanish">{{ 'contact.form.spanish-level' | translate }}</label>
-                    <select name="tp-spanish" id="tp-spanish" [(ngModel)]="volunteer.spanishLevel" class="tp-feild"
+                    <select disabled name="tp-spanish" id="tp-spanish" [(ngModel)]="volunteer.spanishLevel" class="tp-feild"
                       required>
                       <option disabled selected></option>
                       <option>{{ 'contact.form.basic' | translate }}</option>
@@ -90,7 +92,7 @@
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
                     <label for="tp-know-us">{{ 'contact.form.know-us' | translate }}</label>
-                    <select name="tp-know-us" id="tp-know-us" [(ngModel)]="volunteer.howKnowUs" class="tp-feild">
+                    <select disabled name="tp-know-us" id="tp-know-us" [(ngModel)]="volunteer.howKnowUs" class="tp-feild">
                       <option disabled selected></option>
                       <option value="Amigos">{{ 'contact.form.friends' | translate }}</option>
                       <option value="Internet">{{ 'contact.form.internet' | translate }}</option>
@@ -102,7 +104,7 @@
                 <div class="col-lg-6 col-md-6 col-12">
                   <p class="tp-form-el">
                     <label for="Duración">{{ 'contact.form.length-stay' | translate }}</label>
-                    <select name="tp-spanish" id="tp-spanish" [(ngModel)]="volunteer.spanishLevel" class="tp-feild">
+                    <select disabled name="tp-spanish" id="tp-spanish" [(ngModel)]="volunteer.spanishLevel" class="tp-feild">
                       <option disabled selected></option>
                       <option value="1">{{ 'contact.form.plan-1-week' | translate }}</option>
                       <option value="2">{{ 'contact.form.plan-2-week' | translate }}</option>
@@ -116,18 +118,18 @@
               <div class="row">
                 <div class="col-12">
                   <p class="tp-form-el">
-                    <textarea name="tp-message" id="tp-message" class="tp-message" [(ngModel)]="volunteer.message"
+                    <textarea disabled name="tp-message" id="tp-message" class="tp-message" [(ngModel)]="volunteer.message"
                       [placeholder]="'contact.form.want-be-volunteer' | translate"></textarea>
                   </p>
                   <p class="tp-form-el">
-                    <textarea name="tp-volunteer-experience" id="tp-volunteer-experience" [(ngModel)]="volunteer.volunteerExperience"
+                    <textarea disabled name="tp-volunteer-experience" id="tp-volunteer-experience" [(ngModel)]="volunteer.volunteerExperience"
                       class="tp-volunteer-experience" [placeholder]="'contact.form.volunteer-experience' | translate"></textarea>
                   </p>
                 </div>
 
                 <div class="col-12 ">
                   <div class="tp-wrap-btn">
-                    <button type="submit" class=" sendmessage_btn" id="tp-submit">
+                    <button type="submit" class=" sendmessage_btn" id="tp-submit" disabled>
                       {{'contact.form.send-request' | translate}}
                     </button>
                   </div>
