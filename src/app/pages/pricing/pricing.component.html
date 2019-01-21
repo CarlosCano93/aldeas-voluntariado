@@ -1,10 +1,10 @@
 <app-page-title [title]="'pricing.title' | translate" [subtitle]="'pricing.subtitle' | translate"></app-page-title>
-<section class="rafaa-section singel-service-page">
+<section class="rafaa-section r-results">
   <div class="container">
     <div class="row">
       <div class="col-12">
         <div class="wcus_section_title">
-          <span class="rp-tip">{{ 'pricing.included.pre-title' | translate }}</span>
+          <span class="rp-tip">{{ 'pricing.money.pre-title' | translate }}</span>
           <h2>{{ 'pricing.included.title' | translate }}</h2>
           <p>{{ 'pricing.included.desc' | translate }}</p>
         </div>
@@ -12,12 +12,7 @@
     </div>
     <div class="row">
       <div class="col-lg-7 col-md-12 col-12">
-        <div class="singel-page-img left-simage">
-          <img src="../../../assets/images/about/about_1.jpg" alt="image title" />
-        </div>
-      </div>
-      <div class="col-lg-5 col-md-12 col-12">
-        <div class="about_list_row">
+        <div class="results_content">
           <ul class="about_list">
             <li><span class="about_icon">
                 <i class="fas fa-check"></i>
@@ -34,10 +29,6 @@
               </span>
               <p>{{ 'pricing.included.airport-movility' | translate }}</p>
             </li>
-          </ul>
-        </div>
-        <div class="about_list_row">
-          <ul class="about_list">
             <li><span class="about_icon">
                 <i class="fas fa-times"></i>
               </span>
@@ -51,42 +42,22 @@
             <li><span class="about_icon">
                 <i class="fas fa-times"></i>
               </span>
-              <p>{{ 'pricing.included.air-ticket' | translate }}</p>
+              <p>{{ 'pricing.included.air-tickets' | translate }}</p>
             </li>
             <li><span class="about_icon">
-              <i class="fas fa-times"></i>
-            </span>
-            <p>{{ 'pricing.included.tours' | translate }}</p>
-          </li>
+                <i class="fas fa-times"></i>
+              </span>
+              <p>{{ 'pricing.included.tours' | translate }}</p>
+            </li>
           </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section class="rafaa-section r-results">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="wcus_section_title">
-          <span class="rp-tip">{{ 'pricing.money.pre-title' | translate }}</span>
-          <h2>{{ 'pricing.included.title' | translate }}</h2>
-          <p>{{ 'pricing.included.desc' | translate }}</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-7 col-md-12 col-12">
-        <div class="results_content">
-          <p>{{ 'pricing.money.text1' | translate }}</p>
-          <p>{{ 'pricing.money.text2' | translate }}</p>
         </div>
       </div>
       <div class="col-lg-5 col-md-12 col-12">
         <div class="col-radar-chart">
           <div class="r_radar_chart">
             <div class="tp_chart">
-              <canvas baseChart [data]="doughnutChartData" [labels]="'pricing.doughnutChartLabels' | translate" chartType="doughnut"></canvas>
+              <canvas baseChart [data]="doughnutChartData" [labels]="'pricing.doughnutChartLabels' | translate"
+                chartType="doughnut"></canvas>
             </div>
           </div>
         </div>

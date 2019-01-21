@@ -3413,7 +3413,7 @@ span.rp-tip {
 
 .about_icon {
   font-size: 13px;
-  margin-right: 15px;
+  margin: 0px 15px 0px 15px;
   color: #f6364d;
   display: inline-block;
   float: left;
