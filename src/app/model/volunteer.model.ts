@@ -17,7 +17,7 @@ export class Volunteer {
 
   public volunteerExperience: string;
 
-  public plan: number;
+  public plan: string;
 
   public howKnowUs: string;
 

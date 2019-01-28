@@ -11,7 +11,7 @@ const httpOptions = {
 
 @Injectable({ providedIn: 'root' })
 export class ContactService {
-  volunteerUrl = '/api/clients/add';
+  volunteerUrl = '/api/clients';
 
   constructor(private http: HttpClient) {}
 
