@@ -39,6 +39,6 @@
   background-image: url('../../../assets/images/gallery/gallery_6.jpg');
 }
 
-.wrap-about-title>.l-head {
-  color: white;
+.parallax-image>.container>.row>.col-12>.wrap-about-title>.l-head {
+  color: #fff;
 }
