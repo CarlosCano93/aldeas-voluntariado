@@ -2,7 +2,6 @@
   <!-- top logo/contac inf -->
   <div class="container">
     <div class="row row_menu_2">
-
       <div class="col-lg-2 col-md-12 col-12 col-logo-3">
         <div class="tagpoint-wrap-logo ">
           <span class="phone_menu  primary-color">
@@ -15,48 +14,82 @@
           <ul class="tagpoint-main-menu ">
             <li class="current_page_item">
               <a title="Home" href="">
-                {{ 'navbar.home' | translate }}
+                {{ "navbar.home" | translate }}
               </a>
             </li>
-            <li>
-              <a routerLink="volunteering" routerLinkActive="active" title="volunteering">
-                {{ 'navbar.volunteering' | translate }}
+            <li class="has-sub">
+              <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
+              <a
+                routerLink="volunteering"
+                routerLinkActive="active"
+                title="volunteering"
+              >
+                {{ "navbar.volunteering" | translate }}
+                <i class="  fas fa-chevron-down"></i>
               </a>
+
+              <ul class="sub-menu">
+                <li *ngFor="let projects of projects">
+                  <a>{{ projects.title }}</a>
+                </li>
+              </ul>
             </li>
             <li>
               <a routerLink="tourism" routerLinkActive="active" title="tourism">
-                {{ 'navbar.tourism' | translate }}
+                {{ "navbar.tourism" | translate }}
               </a>
             </li>
             <li>
               <a routerLink="pricing" routerLinkActive="active" title="pricing">
-                {{ 'navbar.pricing' | translate }}
+                {{ "navbar.pricing" | translate }}
               </a>
             </li>
             <li>
-              <a routerLink="collaborate" routerLinkActive="active" title="collaborate">
-                {{ 'navbar.collaborate' | translate }}
+              <a
+                routerLink="collaborate"
+                routerLinkActive="active"
+                title="collaborate"
+              >
+                {{ "navbar.collaborate" | translate }}
               </a>
             </li>
             <li>
               <a routerLink="about" routerLinkActive="active" title="About">
-                {{ 'navbar.about' | translate }}
+                {{ "navbar.about" | translate }}
               </a>
             </li>
             <li>
-              <a routerLink="contact" routerLinkActive="active" title="Contact">{{ 'navbar.contact' | translate }}</a>
+              <a
+                routerLink="contact"
+                routerLinkActive="active"
+                title="Contact"
+                >{{ "navbar.contact" | translate }}</a
+              >
             </li>
             <li class="wrap_phone request_qoute">
-              <a routerLink="contact" routerLinkActive="active" title="Contact" class="request_qoute">
-                {{ 'navbar.btn-volunteer' | translate }}<i class="fas fa-external-link-alt"></i></a>
+              <a
+                routerLink="contact"
+                routerLinkActive="active"
+                title="Contact"
+                class="request_qoute"
+              >
+                {{ "navbar.btn-volunteer" | translate
+                }}<i class="fas fa-external-link-alt"></i
+              ></a>
             </li>
             <li class="has-sub">
               <i class="  fas fa-chevron-down tp_phone_dropdown"></i>
-              <a title="languaje">{{ lang }}<i class="  fas fa-chevron-down"></i></a>
+              <a title="languaje"
+                >{{ lang }}<i class="  fas fa-chevron-down"></i
+              ></a>
 
               <ul class="sub-menu">
-                <li (click)="changeLanguage('es')"><a> {{ 'navbar.langs.es' | translate }} </a></li>
-                <li (click)="changeLanguage('en')"><a> {{ 'navbar.langs.en' | translate }} </a></li>
+                <li (click)="changeLanguage('es')">
+                  <a> {{ "navbar.langs.es" | translate }} </a>
+                </li>
+                <li (click)="changeLanguage('en')">
+                  <a> {{ "navbar.langs.en" | translate }} </a>
+                </li>
               </ul>
             </li>
           </ul>

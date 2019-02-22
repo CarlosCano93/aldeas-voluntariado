@@ -55,16 +55,20 @@
       "pre-title": "FAQ",
       "title": "Preguntas más frecuentes",
       "desc": "Lorem ipsum dolor sit amet",
-      "questions": [{
-        "question": "Lorem ipsum dolor sit amet?",
-        "answer": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      }, {
-        "question": "Lorem ipsum dolor sit amet?",
-        "answer": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      }, {
-        "question": "Lorem ipsum dolor sit amet?",
-        "answer": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      }]
+      "questions": [
+        {
+          "question": "Lorem ipsum dolor sit amet?",
+          "answer": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        },
+        {
+          "question": "Lorem ipsum dolor sit amet?",
+          "answer": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        },
+        {
+          "question": "Lorem ipsum dolor sit amet?",
+          "answer": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        }
+      ]
     },
     "contact": {
       "pre-title": "Contacta con nosotros",
@@ -77,43 +81,70 @@
   "volunteering": {
     "title": "Voluntariados",
     "subtitle": "Infórmate de los diferentes centros y actividades que desempeñarás durante tu voluntariado",
-    "projects": [{
-        "title": "Orfanato en Bolivia",
+    "projects": [
+      {
+        "title": "Educación",
         "description": [
-          "Aldea en el corazón de la ciudad de Santa Cruz de la Sierra, Bolivia. Creada en 1972 por un sacerdote, que todavía vive en la aldea, que emigro a Bolivia desde Austria. La misión con la que fue creada esta aldea y que continua funcionando es la de criar a niños abandonados, maltratados y huérfanos en un ambiente familiar de amor con una “madre” y sus hermanos. Ha crecido hasta contar con un total de X casas unifamiliares. Cada casa tiene una “mama” y 10-12 niños a los que se les proporciona todos los beneficios emocionales y sociales de crecer en un ambiente familiar amoroso.",
-          "También cuenta con una guardería en la cual hay espacio para 80 bebes y niños (desde bebé hasta 6 años).",
-          "La aldea cuenta con su propio colegio, unidad odontológica, enfermería, taller, polideportivo, etc..."
+          "Los voluntarios tendrán la oportunidad de trabajar con niños de diversas edades, desde 3 hasta 18 años en el colegio que se encuentra adyacente a la aldea. Los profesores son locales y nunca se dejará al voluntario solo con los niños. Más bien el voluntario tendrá que ser capaz de apoyar a los profesores locales con nuevas metodologías, ideas, etc, sobre todo centrándose en que los niños adquieran nuevas competencias. Además de ayudar con la preparación de las clases, deberes y exámenes. El voluntario podrá también organizar actividades extraescolares."
+        ],
+        "list": "Perfil del voluntario en educación: ",
+        "profile": [
+          "Mayor de 20 años",
+          "Con aptitudes sociales y habilidades comunicativas",
+          "Apasionado por los niños",
+          "Importante que sea una persona con buena actitud, capaz de motivar a los niños que al sufrir abandono tienen una autoestima baja y, hacerlo conlleva combinar grandes dosis de paciencia con buen humor.",
+          "Gran capacidad de adaptación a diferentes entornos y a situaciones no tan comunes en el mundo desarrollado.",
+          "Fortaleza física y mental, no recomendando a personas que enferman frecuentemente o con problemas psicológicos. ",
+          "Principios y valores con los que deben contar los voluntarios: empatía, humildad, compromiso, gratitud, optimismo, voluntad, solidaridad, perseverancia."
         ],
         "country": "Bolivia",
         "city": "Santa Cruz de la Sierra",
         "tags": "voluntariado niños enseñanza cuidados",
-        "image1": "../../assets/images/projects/project_1.jpg",
-        "image2": "../../assets/images/projects/project_2.jpg",
-        "image3": "../../assets/images/projects/project_3.jpg"
+        "image1": "../../assets/images/projects/project_1.jpg"
       },
       {
-        "title": "Centro de formación y Capacitación para jóvenes con pocos recursos ",
+        "title": "Salud",
         "description": [
-          "Centro de Formación y Capacitación proyectado con la finalidad de ofrecer formación y capacitación técnica como así también para retiros espirituales en primer lugar para los niños y jóvenes, para el personal (mamás de casa, tías, y otros) como ayuda adicional para lograr mejores resultados a favor de los niños y jóvenes."
+          "En la aldea se trabaja con una enfermera permanente que atiende las enfermedades leves de los niños y niñas. Cuando ocurre una urgencia grave o la enfermera no puede hacerse cargo se llevan al hospital de la ciudad. El servicio de enfermería ofrece una excelente oportunidad para el aprendizaje así como una gratificante experiencia.",
+          "Para aquellos que se dedican o están estudiando para dedicarse a cualquier rama de la salud especializada en niños, esta puede ser una buena forma de aprender en un entorno exótico y ver cómo ejercen profesionales en otro país.",
+          "El voluntario que esté encargado en la sección de salud puede acompañar a la enfermera y ayudarla en su trabajo diario, realizará rutinas de seguimiento de la evolución de pacientes y mantendrá en condiciones higiénicas óptimas el material de enfermería."
+        ],
+        "list": "Perfil del voluntario en educación: ",
+        "profile": [
+          "Mayor de 20 años",
+          "Con aptitudes sociales y habilidades comunicativas",
+          "Apasionado por los niños",
+          "Importante que sea una persona con buena actitud, capaz de motivar a los niños que al sufrir abandono tienen una autoestima baja y, hacerlo conlleva combinar grandes dosis de paciencia con buen humor.",
+          "Gran capacidad de adaptación a diferentes entornos y a situaciones no tan comunes en el mundo desarrollado.",
+          "Fortaleza física y mental, no recomendado a personas que enferman frecuentemente o con problemas psicológicos. ",
+          "Principios y valores con los que deben contar los voluntarios: empatía, humildad, compromiso, gratitud, optimismo, voluntad, solidaridad, perseverancia."
         ],
         "country": "Bolivia",
         "city": "Santa Cruz de la Sierra",
-        "tags": "voluntariado formación jovenes",
-        "image1": "../../assets/images/projects/project_4.jpg",
-        "image2": "../../assets/images/projects/project_5.jpg",
-        "image3": "../../assets/images/projects/project_6.jpg"
+        "tags": "voluntariado niños enseñanza cuidados",
+        "image1": "../../assets/images/projects/project_1.jpg"
       },
       {
-        "title": "Centro de Madres Solteras “Madre María”",
+        "title": "Convivencia",
         "description": [
-          "Proyecto contra el abandono de niños con capacidad para 50 madres solteras. Esta obra tiene la finalidad de ayudar a madres solteras en momentos de problemas y necesidades, ayudarlas como madres y darles una tecnificación personal para que puedan educarse de forma autónoma en la vida futura y críen a sus hijos con amor y evitar de esta manera de que hayan más niños huérfanos y abandonados"
+          "<strong>Organizar actividades lúdicas y deportivas:</strong> Los voluntarios velarán por las actividades recreativas de los niños creando un ambiente de compañerismo y verdadero sentimiento filial, ya que si bien constan de canchas deportivas y de juegos, necesitan a esa persona que los invite a disfrutar de sus tardes y mañanas. El voluntario podrá organizar juegos en equipos, actividades didácticas y competencias deportivas.",
+          "<strong>Cubrir necesidades básicas de los más pequeños: </strong> En nuestras respectivas casitas atendemos de los más pequeños, pero nunca está de más otra mano amiga para ellos, al darles de comer y ayudar con la higiene crecen de manera íntegra. La organización en esta área está marcada en desayuno y cena con su respectiva “mamá” de la casita, papel que el voluntario puede asumir, y el almuerzo en el comedor del hogar.",
+          "<strong>Hacer las tardes productivas: </strong>Con una mano solidaria que incentive al grupo se puede lograr mucho, como ser, mejorar el ambiente del hogar restaurando y decorando las casas, enseñar el cuidado que implica cada cosa, como ser, limpieza, cocina y mantener un ambiente empático para la Aldea."
+        ],
+        "list": "Perfil del voluntario en educación: ",
+        "profile": [
+          "Mayor de 20 años",
+          "Con aptitudes sociales y habilidades comunicativas",
+          "Apasionado por los niños",
+          "Importante que sea una persona con buena actitud, capaz de motivar a los niños que al sufrir abandono tienen una autoestima baja y, hacerlo conlleva combinar grandes dosis de paciencia con buen humor.",
+          "Gran capacidad de adaptación a diferentes entornos y a situaciones no tan comunes en el mundo desarrollado.",
+          "Fortaleza física y mental, no recomendado a personas que enferman frecuentemente o con problemas psicológicos. ",
+          "Principios y valores con los que deben contar los voluntarios: empatía, humildad, compromiso, gratitud, optimismo, voluntad, solidaridad, perseverancia."
         ],
         "country": "Bolivia",
         "city": "Santa Cruz de la Sierra",
-        "tags": "voluntariado madres niños formación",
-        "image1": "../../assets/images/projects/project_7.jpg",
-        "image2": "../../assets/images/projects/project_8.jpg",
-        "image3": "../../assets/images/projects/project_9.jpg"
+        "tags": "voluntariado niños enseñanza cuidados",
+        "image1": "../../assets/images/projects/project_1.jpg"
       }
     ]
   },
@@ -121,19 +152,21 @@
   "tourism": {
     "title": "Turismo & Idiomas",
     "subtitle": "Infórmate de los diferentes centros y todas las oportunidades que ofrece",
-    "projects": [{
-      "title": "Escuela de Español en Valparaíso",
-      "description": [
-        "Realiza una inmersión en una residencia en Chile mientras estudias, viajas, comes y disfrutas de la vida de Valparaíso con nuestro programa de inmersión lingüística.",
-        "Compartirás la experiencia con los trabajadores de un café restaurante, con un profesor privado de Español y un guía turístico que te enseñara los mejores rincones de la ciudad y el increíble entorno que lo rodea."
-      ],
-      "country": "Chile",
-      "city": "Valparaíso",
-      "tags": "turismo aventura idomas español",
-      "image1": "../../assets/images/projects/project_10.jpg",
-      "image2": "../../assets/images/projects/project_11.jpg",
-      "image3": "../../assets/images/projects/project_12.jpg"
-    }]
+    "projects": [
+      {
+        "title": "Escuela de Español en Valparaíso",
+        "description": [
+          "Realiza una inmersión en una residencia en Chile mientras estudias, viajas, comes y disfrutas de la vida de Valparaíso con nuestro programa de inmersión lingüística.",
+          "Compartirás la experiencia con los trabajadores de un café restaurante, con un profesor privado de Español y un guía turístico que te enseñara los mejores rincones de la ciudad y el increíble entorno que lo rodea."
+        ],
+        "country": "Chile",
+        "city": "Valparaíso",
+        "tags": "turismo aventura idomas español",
+        "image1": "../../assets/images/projects/project_10.jpg",
+        "image2": "../../assets/images/projects/project_11.jpg",
+        "image3": "../../assets/images/projects/project_12.jpg"
+      }
+    ]
   },
 
   "projects": {
@@ -295,5 +328,4 @@
     "cookies": "Política de Cookies",
     "terms": "Términos & condiciones"
   }
-
 }

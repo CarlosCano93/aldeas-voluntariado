@@ -1,39 +1,47 @@
 <!-- breadcrumbs -->
-<section class="rafaa-section projects-singel-page " *ngFor="let d of data; let isOdd=even" [class.background-gray]="isOdd">
+<section
+  class="rafaa-section projects-singel-page "
+  *ngFor="let d of data; let isOdd = even"
+  [class.background-gray]="isOdd"
+>
   <div class="container">
-    <div class="row project_desc">
-      <div class="col-lg-8 col-md-12 col-12">
+    <div class="row">
+      <div class="col-12">
         <h2>{{ d.title }}:</h2>
-        <p *ngFor="let desc of d.description;">{{ desc }}</p>
+        <p *ngFor="let desc of d.description" [innerHTML]="desc"></p>
+      </div>
+    </div>
+    <div class="row projects-profile">
+      <div class="col-lg-8 col-md-12 col-12">
+        <p>{{ d.list }}</p>
+        <ul>
+          <li *ngFor="let profile of d.profile">
+            <span class="about_icon"> <i class="fas fa-check"></i> </span>
+            <span [innerHTML]="profile"></span>
+          </li>
+        </ul>
       </div>
       <div class="col-lg-4 col-md-12 col-12">
         <ul class="wrap_project_info" [class.background-gray]="isOdd">
-          <li><strong>{{ 'projects.country' | translate }}: </strong>
+          <li>
+            <strong>{{ "projects.country" | translate }}: </strong>
             <p>{{ d.country }}</p>
           </li>
-          <li><strong>{{ 'projects.city' | translate }}: </strong>
+          <li>
+            <strong>{{ "projects.city" | translate }}: </strong>
             <p>{{ d.city }}</p>
           </li>
-          <li><strong>{{ 'projects.tags' | translate }}: </strong>
+          <li>
+            <strong>{{ "projects.tags" | translate }}: </strong>
             <p>{{ d.tags }}</p>
           </li>
         </ul>
       </div>
     </div>
-    <div class="row project_gallery">
-      <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+    <div class="row">
+      <div class="col-12">
         <div class="wrap_galler">
           <img [src]="d.image1" alt="project name" />
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-        <div class="wrap_galler">
-          <img [src]="d.image2" alt="project name" />
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-        <div class="wrap_galler">
-          <img [src]="d.image3" alt="project name" />
         </div>
       </div>
     </div>
